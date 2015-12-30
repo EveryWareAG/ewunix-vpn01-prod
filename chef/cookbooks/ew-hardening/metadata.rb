@@ -1,0 +1,10 @@
+name              'ew-hardening'
+maintainer        'EveryWare'
+maintainer_email  'alexander.skwar@everyware.ch'
+license           'Apache 2.0'
+description       'System hardening'
+long_description  IO.read(File.join(File.dirname(__FILE__), 'README.md'))
+version           '1.0.0'
+recipe            'default', 'Basic configuration for all nodes'
+supports          'ubuntu'
+#depends           'openssh', '~> 1.5.2'

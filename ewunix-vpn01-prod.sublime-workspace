@@ -1,0 +1,1391 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"exit",
+				"exitcode"
+			],
+			[
+				"LOG",
+				"LOG_LEVEL"
+			],
+			[
+				"logro",
+				"logrotate"
+			],
+			[
+				"log",
+				"logrotate"
+			],
+			[
+				"xml",
+				"xml"
+			],
+			[
+				"x",
+				"xml"
+			],
+			[
+				"sit",
+				"sitemap"
+			],
+			[
+				"conf",
+				"configurationDataSource"
+			],
+			[
+				"instance",
+				"instances"
+			],
+			[
+				"connec",
+				"connectors"
+			],
+			[
+				"en",
+				"environment"
+			],
+			[
+				"rec",
+				"recursive"
+			],
+			[
+				"group",
+				"groupname"
+			],
+			[
+				"LOC",
+				"LOCAL_GROUP"
+			],
+			[
+				"LOCAL_",
+				"LOCAL_PERMS"
+			],
+			[
+				"opt",
+				"options"
+			],
+			[
+				"domain",
+				"domain_aliases"
+			],
+			[
+				"param",
+				"paramname"
+			],
+			[
+				"search",
+				"search_file_replace_line"
+			],
+			[
+				"delete",
+				"delete_line_re"
+			],
+			[
+				"iser",
+				"insert_line_text"
+			],
+			[
+				"inser",
+				"insert_line_re"
+			],
+			[
+				"repla",
+				"replace_line_txt"
+			],
+			[
+				"replace",
+				"replace_line_re"
+			],
+			[
+				"insert_line",
+				"insert_line_re"
+			],
+			[
+				"replace_line_",
+				"replace_line_txt"
+			],
+			[
+				"sys",
+				"sysctlfile"
+			],
+			[
+				"IP",
+				"IPv6_deaktivieren"
+			],
+			[
+				"bash",
+				"bash_audit"
+			],
+			[
+				"set_c",
+				"set_conf_0"
+			],
+			[
+				"el",
+				"elif	else if"
+			],
+			[
+				"vhost",
+				"vhost_props"
+			],
+			[
+				"vh",
+				"vhost_props"
+			],
+			[
+				"Kon",
+				"Konfigurationsdatei"
+			],
+			[
+				"insta",
+				"install_commands"
+			],
+			[
+				"k",
+				"key"
+			],
+			[
+				"key_c",
+				"key_command"
+			],
+			[
+				"tcins",
+				"tcinstance_app"
+			],
+			[
+				"inst",
+				"install_commands"
+			],
+			[
+				"cta",
+				"catalina_base"
+			],
+			[
+				"home",
+				"home_dir"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 96.0,
+		"last_filter": "project s",
+		"selected_items":
+		[
+			[
+				"project s",
+				"Project: Save As"
+			],
+			[
+				"add ",
+				"Project: Add Folder"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"git ad",
+				"Git: Add Current File"
+			],
+			[
+				"ref",
+				"Project: Refresh Folders"
+			],
+			[
+				"close",
+				"File: Close All"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"clo",
+				"File: Close All"
+			],
+			[
+				"git pus",
+				"Git: Push"
+			],
+			[
+				"git add",
+				"Git: Add Current File"
+			],
+			[
+				"add",
+				"Git: Add Current File"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"diff all",
+				"Git: Diff All Files"
+			],
+			[
+				"refre",
+				"Project: Refresh Folders"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"syntax bas",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"git puh",
+				"Git: Push"
+			],
+			[
+				"git c",
+				"Git: Commit"
+			],
+			[
+				"git dif",
+				"Git: Diff All Files"
+			],
+			[
+				"close ",
+				"File: Close All"
+			],
+			[
+				"git co",
+				"Git: Commit"
+			],
+			[
+				"close all",
+				"File: Close All"
+			],
+			[
+				"git stt",
+				"Git: Status"
+			],
+			[
+				"cl al",
+				"File: Close All"
+			],
+			[
+				"save al",
+				"File: Save All"
+			],
+			[
+				"git sta",
+				"Git: Status"
+			],
+			[
+				"git statu",
+				"Git: Status"
+			],
+			[
+				"comme",
+				"Toggle Comment"
+			],
+			[
+				"status",
+				"Git: Status"
+			],
+			[
+				"git br",
+				"Git: Change Branch"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"commit",
+				"Git: Commit"
+			],
+			[
+				"com",
+				"Toggle Comment"
+			],
+			[
+				"ad",
+				"Git: Add..."
+			],
+			[
+				"git sttus",
+				"Git: Status"
+			],
+			[
+				"git diff",
+				"Git: Diff All Files"
+			],
+			[
+				"comm",
+				"Toggle Comment"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"stash",
+				"Git: Stash Drop"
+			],
+			[
+				"tog",
+				"Toggle Comment"
+			],
+			[
+				"git st",
+				"Git: Status"
+			],
+			[
+				"git statsu",
+				"Git: Status"
+			],
+			[
+				"git di",
+				"Git: Diff All Files"
+			],
+			[
+				"to",
+				"Toggle Comment"
+			],
+			[
+				"toggle",
+				"Toggle Comment"
+			],
+			[
+				"git: status",
+				"Git: Status"
+			],
+			[
+				"git: check",
+				"Git: Checkout Current File"
+			],
+			[
+				"git bra",
+				"Git: Change Branch"
+			],
+			[
+				"git cha",
+				"Git: Change Branch"
+			],
+			[
+				"git pull",
+				"Git: Pull"
+			],
+			[
+				"togg",
+				"Toggle Comment"
+			],
+			[
+				"comment",
+				"Toggle Comment"
+			],
+			[
+				"o",
+				"Toggle Comment"
+			],
+			[
+				"git psh",
+				"Git: Push"
+			],
+			[
+				"oggl",
+				"Toggle Comment"
+			],
+			[
+				"git psuh",
+				"Git: Push"
+			],
+			[
+				"git: push",
+				"Git: Push"
+			],
+			[
+				"git: com",
+				"Git: Commit"
+			],
+			[
+				"git: ad",
+				"Git: Add Current File"
+			],
+			[
+				"git: di",
+				"Git: Diff All Files"
+			],
+			[
+				"git: stt",
+				"Git: Status"
+			],
+			[
+				"git",
+				"Git: Commit"
+			],
+			[
+				"git acf",
+				"Git: Add Current File"
+			],
+			[
+				"tbc",
+				"Toggle Block Comment"
+			],
+			[
+				"git pul",
+				"Git: Pull"
+			],
+			[
+				"git c om",
+				"Git: Commit"
+			],
+			[
+				"git: stat",
+				"Git: Status"
+			],
+			[
+				"git: pul",
+				"Git: Pull"
+			],
+			[
+				"git: psh",
+				"Git: Push"
+			],
+			[
+				"commi",
+				"Git: Commit"
+			],
+			[
+				"git: statu",
+				"Git: Status"
+			],
+			[
+				"Git: status",
+				"Git: Status"
+			],
+			[
+				"Git: pul",
+				"Git: Pull"
+			],
+			[
+				"Git: push",
+				"Git: Push"
+			],
+			[
+				"Git: com",
+				"Git: Commit"
+			],
+			[
+				"Git: ad",
+				"Git: Add Current File"
+			],
+			[
+				"Git: sta",
+				"Git: Status"
+			],
+			[
+				"git: pus",
+				"Git: Push"
+			],
+			[
+				"git: dif",
+				"Git: Diff All Files"
+			],
+			[
+				"git: sta",
+				"Git: Status"
+			],
+			[
+				"git: pull",
+				"Git: Pull"
+			],
+			[
+				"git: add",
+				"Git: Add..."
+			],
+			[
+				"git: p",
+				"Git: Push"
+			],
+			[
+				"git: co",
+				"Git: Commit"
+			],
+			[
+				"git: ph",
+				"Git: Push"
+			],
+			[
+				"git: comm",
+				"Git: Commit"
+			],
+			[
+				"change",
+				"Changelog"
+			],
+			[
+				"git: puh",
+				"Git: Push"
+			],
+			[
+				"git: br",
+				"Git: Change Branch"
+			],
+			[
+				"git: b",
+				"Git: Change Branch"
+			],
+			[
+				"git: acf",
+				"Git: Add Current File"
+			],
+			[
+				"git: psuh",
+				"Git: Push"
+			],
+			[
+				"git: commit",
+				"Git: Commit"
+			],
+			[
+				"git: c",
+				"Git: Commit"
+			],
+			[
+				"git: st",
+				"Git: Show Tags"
+			],
+			[
+				"tgo",
+				"Toggle Comment"
+			],
+			[
+				"git: cm",
+				"Git: Commit"
+			],
+			[
+				"Git: di",
+				"Git: Diff All Files"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"Git: dif",
+				"Git: Diff All Files"
+			],
+			[
+				"Git: p",
+				"Git: Push"
+			],
+			[
+				"Git: comm",
+				"Git: Commit"
+			],
+			[
+				"Git: add",
+				"Git: Add..."
+			],
+			[
+				"Git: ",
+				"Git: Gui"
+			],
+			[
+				"diff",
+				"Git: Diff Tool All"
+			],
+			[
+				"git: s",
+				"Git: Status"
+			],
+			[
+				"t",
+				"Toggle Comment"
+			],
+			[
+				"vmen",
+				"View: Toggle Menu"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod"
+	],
+	"file_history":
+	[
+		"/home/ask/Repos/EW/customer/snbng/environments/p2.rb",
+		"/home/ask/Repos/EW/customer/snbng/environments/t1.rb",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/tomcat/templates/default/deploy/deploy.sh.erb",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/tomcat/files/default/tomcat-ssh/automatization-keys.authorized_keys",
+		"/home/ask/Repos/EW/customer/snbng/environments/p1.rb",
+		"/home/ask/Repos/EW/customer/snbng/environments/ka.rb",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/apache/templates/default/apavhost_www.erb",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/apache/attributes/www.rb",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/apache/attributes/mgmt.rb",
+		"/home/ask/Repos/EW/customer/snbng/README.md",
+		"/home/ask/Repos/EW/customer/snbng/CONTRIBUTING.md",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/tomcat/attributes/default.rb",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/tomcat/recipes/mgmt-ipa.rb",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/tomcat/templates/default/deploy/rsyslog.d/45-deploy.conf.erb",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/tomcat/attributes/mgmt.rb",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/tomcat/files/default/default-ew-.ssh/authorized_keys.mhe",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/tomcat/files/default/rsyslog.d/30-deploy.conf",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/tomcat/files/default/deploy/deploy.sh",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/tomcat/recipes/www-ipa.rb",
+		"/data/HOME/tmp/SNB-NG/ka/environments/ka.rb",
+		"/data/HOME/Repos/EW/customer/stable.mgmt/cookbooks/tomcat/recipes/mgmt-ipa.rb",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/tomcat/files/default/tomcat-scripts/tcinit.sh",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/apache/recipes/mgmt-ipa.rb",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/logrotate/definitions/logrotate_app.rb",
+		"/data/HOME/Repos/EW/customer/stable/cookbooks/tomcat/recipes/mgmt-ipa.rb",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/tomcat/templates/default/server.xml",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/tomcat/templates/default/context-ng.xml",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/apache/attributes/mobile.rb",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/apache/attributes/forschung.rb",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/apache/attributes/alert.rb",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/apache/templates/default/apavhost_mobile.erb",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/apache/templates/default/apavhost_mgmt.erb",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/apache/templates/default/apavhost_forschung.erb",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/apache/templates/default/apavhost_alert.erb",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/apache/recipes/mobile-ipa.rb",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/apache/recipes/forschung-ipa.rb",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/apache/recipes/alert-ipa.rb",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/apache/attributes/default.rb",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/apache/templates/default/apavhost_default.erb",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/tomcat/attributes/www.rb",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/apache/recipes/www-ipa.rb",
+		"/data/HOME/Repos/EW/customer/hostnamen/environments/p2.rb",
+		"/data/HOME/Repos/EW/customer/hostnamen/cookbooks/tomcat/attributes/www.rb",
+		"/data/HOME/Repos/EW/customer/hostnamen/environments/ka.rb",
+		"/data/HOME/Repos/EW/customer/hostnamen/cookbooks/tomcat/attributes/default.rb",
+		"/data/HOME/Repos/EW/customer/hostnamen/environments/t1.rb",
+		"/data/HOME/Repos/EW/customer/hostnamen/cookbooks/tomcat/templates/default/server.xml",
+		"/data/HOME/Repos/EW/customer/l",
+		"/data/HOME/Repos/EW/customer/stable.fixes/cookbooks/tomcat/recipes/default-ipa.rb",
+		"/data/HOME/Repos/EW/customer/stable.fixes/cookbooks/tomcat/attributes/default.rb",
+		"/data/HOME/Repos/EW/customer/stable.fixes/cookbooks/apache/recipes/default-ipa.rb",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/tomcat/recipes/default-ipa.rb",
+		"/data/HOME/Repos/EW/customer/stable.fixes/cookbooks/ew/recipes/ssh.rb",
+		"/data/HOME/Repos/EW/customer/stable.fixes/cookbooks/tomcat/attributes/mgmt.rb",
+		"/data/HOME/Repos/EW/customer/stable.fixes/cookbooks/tomcat/recipes/www-ipa.rb",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/tomcat/CHANGELOG.md",
+		"/data/HOME/Repos/EW/customer/stable/cookbooks/tomcat/attributes/mgmt.rb",
+		"/home/ask/Repos/EW/customer/snbng/lxc-template-snbng/snbng/lxc-base",
+		"/home/ask/Repos/EW/customer/snbng/lxc-template-snbng/snbng/lxc-base-debug",
+		"/home/ask/Repos/EW/customer/snbng/lxc-template-snbng/deploys/snbng-mgmt02-test.sh",
+		"/home/ask/Repos/EW/customer/snbng/lxc-template-snbng/scripts/chef-solo.upstart.conf-debug",
+		"/home/ask/Repos/EW/customer/snbng/lxc-template-snbng/deploys/create-snbng-lxc.sh",
+		"/data/HOME/Repos/EW/customer/auf-prod/stable/cookbooks/tomcat/recipes/default-ipa.rb",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/tomcat/templates/default/context-ng.old-style.backup.xml",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/tomcat/templates/default/servermgmt.xml",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/tomcat/templates/default/serverwww.xml",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/tomcat/templates/default/serveralert.xml",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/tomcat/templates/default/servermobile.xml",
+		"/data/HOME/Repos/EW/customer/deploy-to-mgmt-system/cookbooks/apache/attributes/mgmt.rb",
+		"/data/HOME/Repos/EW/customer/deploy-to-mgmt-system/cookbooks/tomcat/attributes/www.rb",
+		"/data/HOME/Repos/EW/customer/deploy-to-mgmt-system/cookbooks/tomcat/recipes/default-ipa.rb",
+		"/data/HOME/Repos/EW/customer/deploy-to-mgmt-system/cookbooks/tomcat/recipes/mgmt-ipa.rb",
+		"/data/HOME/Repos/EW/customer/deploy-to-mgmt-system/environments/p2.rb",
+		"/home/ask/Repos/EW/customer/snbng/nodes/snbng-web01-test.json",
+		"/home/ask/Repos/EW/customer/snbng/roles/app.json",
+		"/home/ask/Repos/EW/customer/snbng/roles/mgmt.json",
+		"/home/ask/Repos/EW/customer/snbng/environments/t2.rb",
+		"/data/HOME/Repos/EW/customer/deploy-to-mgmt-system/cookbooks/tomcat/attributes/default.rb",
+		"/home/ask/Repos/EW/customer/snbng/nodes/snbng-mgmt02-ka.json",
+		"/home/ask/Repos/EW/customer/snbng/nodes/snbng-mgmt01-test.json",
+		"/home/ask/Repos/EW/customer/snbng/lxc-template-snbng/deploys/snbng-mgmt01-ka.sh",
+		"/home/ask/Repos/EW/customer/snbng/lxc-template-snbng/deploys/snbng-mgmt01-prod.sh",
+		"/home/ask/Repos/EW/customer/snbng/lxc-template-snbng/deploys/snbng-mgmt01-test.sh",
+		"/home/ask/Repos/EW/customer/snbng/lxc-template-snbng/deploys/snbng-mgmt02-ka.sh",
+		"/home/ask/Repos/EW/customer/snbng/lxc-template-snbng/deploys/snbng-mgmt02-prod.sh",
+		"/home/ask/Repos/EW/customer/snbng/lxc-template-snbng/deploys/snbng-test01-ka.sh",
+		"/home/ask/Repos/EW/customer/snbng/lxc-template-snbng/deploys/snbng-test01-prod.sh",
+		"/home/ask/Repos/EW/customer/snbng/lxc-template-snbng/deploys/snbng-test01-test.sh",
+		"/home/ask/Repos/EW/customer/snbng/lxc-template-snbng/deploys/snbng-test02-prod.sh",
+		"/home/ask/Repos/EW/customer/snbng/lxc-template-snbng/deploys/snbng-web01-ka.sh",
+		"/home/ask/Repos/EW/customer/snbng/lxc-template-snbng/deploys/snbng-web01-prod.sh",
+		"/home/ask/Repos/EW/customer/snbng/lxc-template-snbng/deploys/snbng-web01-test.sh",
+		"/home/ask/Repos/EW/customer/snbng/lxc-template-snbng/deploys/snbng-web02-prod.sh",
+		"/home/ask/Repos/EW/customer/snbng/lxc-template-snbng/deploys/snbng-web02-test.sh",
+		"/data/HOME/Repos/EW/customer/deploy-to-mgmt-system/cookbooks/tomcat/templates/default/deploy/deploy.cfg",
+		"/data/HOME/Repos/EW/customer/deploy-to-mgmt-system/README.md",
+		"/data/HOME/Repos/EW/customer/deploy-to-mgmt-system/cookbooks/ew-bash_audit/recipes/default.rb",
+		"/data/HOME/Repos/EW/customer/deploy-to-mgmt-system/cookbooks/ew-ipa/recipes/default.rb",
+		"/data/HOME/Repos/EW/customer/deploy-to-mgmt-system/cookbooks/oraclejava/recipes/default.rb",
+		"/data/HOME/Repos/EW/customer/snbng/lxc-template-snbng/scripts/chef-solo.upstart.conf",
+		"/home/ask/Repos/EW/customer/snbng/Tickets/70842-7904121214.Context XML Einträge.txt",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/customer/files/default/nginx-log-sync/nginx-log-sync.sh",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/customer/recipes/nginx-log-sync.rb",
+		"/tmp/jstack.txt",
+		"/data/HOME/Repos/EW/customer/snbng/cookbooks/apache/attributes/www.rb",
+		"/data/HOME/Repos/EW/customer/snbng/cookbooks/apache/recipes/default.rb",
+		"/data/HOME/Repos/EW/customer/snbng/cookbooks/tomcat/recipes/mgmt-ipa.rb",
+		"/data/HOME/Repos/EW/customer/snbng/cookbooks/tomcat/attributes/www.rb",
+		"/data/HOME/Repos/EW/customer/snbng/cookbooks/tomcat/attributes/mgmt.rb",
+		"/data/HOME/Repos/EW/customer/snbng/cookbooks/tomcat/recipes/default-ipa.rb",
+		"/data/HOME/Repos/EW/customer/snbng/cookbooks/tomcat/recipes/www-ipa.rb",
+		"/home/ask/Repos/EW/customer/snbng/lxc-template-snbng/README.md",
+		"/scripts/chef-solo.upstart.conf",
+		"/data/HOME/Repos/EW/icinga-conf/icinga-etc/unix/hosts/jobs/jobsuchmaschine.ch.cfg",
+		"/data/HOME/Repos/EW/customer/snbng/cookbooks/ew-hardening/recipes/default.rb",
+		"/data/HOME/Repos/EW/customer/snbng/cookbooks/customer/attributes/default.rb",
+		"/data/HOME/Repos/EW/customer/snbng/cookbooks/tomcat/files/default/snb-ssh/snb-sys.txt",
+		"/data/HOME/Repos/EW/customer/snbng/roles/mgmt.json",
+		"/data/HOME/Repos/EW/customer/snbng/cookbooks/customer/recipes/default-ipa.rb",
+		"/data/HOME/Repos/EW/customer/snbng/cookbooks/ew/README.md",
+		"/data/HOME/Repos/EW/customer/snbng/cookbooks/apache/README.md",
+		"/data/HOME/Repos/EW/customer/snbng/cookbooks/apache/CHANGELOG.md",
+		"/data/HOME/Repos/EW/customer/snbng/cookbooks/customer/recipes/default.rb",
+		"/data/HOME/Repos/EW/customer/snbng/cookbooks/ew-hardening/files/default/sysctl.d/99-ew-network-parameters-host.conf",
+		"/data/HOME/Repos/EW/customer/snbng/cookbooks/tomcat/files/default/deploy/deploy.sh",
+		"/data/HOME/Repos/EW/customer/snbng/environments/p2.rb",
+		"/data/HOME/Repos/EW/customer/snbng/cookbooks/tomcat/templates/default/serverwww.xml",
+		"/data/HOME/Repos/EW/customer/snbng/cookbooks/syslog/templates/default/10-remote-syslog-client.conf"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"",
+			"/home/ask/Repos/EW/customer/snbng/lxc-template-snbng/deploys",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"unzip",
+			"log(",
+			"log ",
+			"snb write",
+			"snbng-",
+			"snbng-mgmt01-test",
+			"snbng-mgmt02-prod",
+			"snbng-mgmt01-prod",
+			"snbng-mgmt01-ka",
+			"snb write",
+			"c72uUenJuR5E",
+			"albigna",
+			".snb.ch-",
+			"@",
+			"'alert'",
+			"@",
+			"tomcat_stop",
+			"web",
+			"@",
+			"waf",
+			"ajp",
+			"'url' => '",
+			"'path' => '",
+			"192.168.68.105",
+			"192.168.68.138",
+			"192.168.229.141",
+			"192.168.68.181",
+			"192.168.67.90",
+			"192.168.229.41",
+			"192.168.68.182",
+			"192.168.67.91",
+			"192.168.229.51",
+			"192.168.67.215",
+			"192.168.229.71",
+			"sdsdfsdf",
+			"www",
+			"authorized_keys_automatizatio",
+			"(mode\\s)+['\"](\\d+)['\"]",
+			"(mode\\s)+.(\\d+).",
+			"authorized_keys.automatization",
+			"Update authorized_keys.local file with automatization keys",
+			"user_re",
+			".autom",
+			"start.conf",
+			"git",
+			"dbs",
+			"server",
+			"@apaInstances",
+			"node['apache']['instances']",
+			"domainPrimary",
+			"node['tomcat']['instances']['www']['vhosts']",
+			"node['apache']['instances']['www']['domain_primary']",
+			"node['tomcat']['instances']['www']['port_ajp']",
+			"node['tomcat']['instances']['www']['port_connector']",
+			"node['tomcat']['instances']['www']['port_shutdown']",
+			".ssh",
+			"(\"\\$IPAADMINPW\")$",
+			"\"$IPAADMINPW\"",
+			"/opt/ew/lxc-template/deploys",
+			"\n    ",
+			": .*",
+			"snbng-mgmt01-test",
+			": .*",
+			"solr",
+			"failo",
+			"ai",
+			"solr",
+			"mgmt",
+			"srv",
+			"mgmt",
+			"authorized_keys.au",
+			"get_public_key_name_user",
+			"sshAppKeys",
+			"tomcat_stop",
+			"tc-www",
+			"-K",
+			"\n        ",
+			"instance_name",
+			"write",
+			"ALL_SSH_KEYS",
+			"context",
+			"ARCHIVEDIR",
+			"TARGET_DIR",
+			"SSH_IGNORED_OUTPUT",
+			"BRANCH",
+			"EW_ENVIRONMENT",
+			"mgmt",
+			"'mgmt'",
+			"\"mgmt\"",
+			"'mgmt'",
+			"'www'",
+			"apache",
+			"logr",
+			"customer",
+			" ",
+			"alert",
+			" ",
+			"']",
+			"node['apache']['instances']['alert']['",
+			"']",
+			"node['apache']['instances']['mgmt']['",
+			"'mobile'",
+			"'www'",
+			"\\s+IN.*",
+			"waf_bac",
+			"JAVA_O",
+			"(unzip.* -d )(/srv/.*?webapps/.*?)( .*)(\")",
+			"(unzip.*?webapps/)(.*?)(/.*)(\")",
+			"unzip",
+			":maxTotal => \"10,\"",
+			"maxTotal",
+			"grep",
+			"192.168.229.45",
+			"(=)\\$(\\d+)",
+			"=$",
+			"(snb.*)",
+			",.*",
+			":hostname => \"192.168.67.91\",",
+			"HOSTBRIDGEDEV",
+			"ka",
+			"done",
+			"\\s+...\\s+\\d+\\s+(yes|no)\\s+\\[Edit\\]\\s+\\[Add Log\\]",
+			"queued as",
+			" $",
+			"°",
+			"§",
+			"é",
+			"à"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"tRKiY4L3N1Ts",
+			"cassons",
+			".#{node['hostname']}.",
+			"'mobile'",
+			"'forschung'",
+			"'default'",
+			":url => '",
+			":path => '",
+			"snbng-cache01-ka.back.ew.snbng.everyware.internal",
+			"snbka138.ew.snbng.everyware.internal",
+			"snbng-mgmt01-ka.snbng.everyware.internal",
+			"snbng-cache01-prod.back.ew.snbng.everyware.internal",
+			"snbprod090.ew.snbng.everyware.internal",
+			"snbng-mgmt01-prod.snbng.everyware.internal",
+			"snbng-cache02-prod.back.snbng.everyware.internal",
+			"snbprod091.snb.snbng.everyware.internal",
+			"snbng-mgmt02-prod.snbng.everyware.internal",
+			"snbtest215.ew.snbng.everyware.internal",
+			"snbng-mgmt01-test.snbng.everyware.internal",
+			"$1$2",
+			"@apacheInstances",
+			"@apaInstances",
+			"@vhosts",
+			"@domainPrimary",
+			"@portAJP",
+			"@portConnector",
+			"@portShutdown",
+			"$1 \"$BRANCH\"",
+			"\"$IPAADMINPW\" \"$BRANCH\"",
+			"\"$PROGDIR\"",
+			": null,",
+			"snbng-web01-test",
+			": null,",
+			"tc-mgmt",
+			"instance_id",
+			"instance_name",
+			"tomcat",
+			"apache",
+			"', '",
+			"\n",
+			"",
+			"@",
+			"",
+			"@",
+			"instance_name",
+			"",
+			"$1$2$3 && chmod -R ugo-s,ug+rwX,o+rX $2*$4",
+			"$1$2$3 && chmod -R ugo-s,ug+rwX,o+rX $2/*$4",
+			":maxTotal => \"10\",",
+			"$1${$2}",
+			"=${",
+			"$1    $1.snbng.everyware.internal",
+			"",
+			":hostname => \"192.168.67.90\",",
+			"BRIDGE",
+			"\\n-------------------------------------------",
+			"\";",
+			"expect -ex \"",
+			"send \"",
+			"\\r\";",
+			"send \"",
+			"\";",
+			"expect -ex \"",
+			"\\r\";",
+			"send \"",
+			"expect -ew \"",
+			"\"",
+			"",
+			"echo \\\"",
+			"\\necho md webmail.everyware.ch zimbra",
+			"$REPO_LOCAL",
+			"'",
+			"'] = '",
+			"default['openssh']['server']['",
+			"",
+			"customer",
+			"ew-bash_audit",
+			"\n-------------------------------------------",
+			"    ",
+			"\n-------------------------------------------",
+			"",
+			"\n-------------------------------------------",
+			"",
+			"\n-------------------------------------------"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 175.0
+	},
+	"pinned_build_system": "",
+	"project": "ewunix-vpn01-prod.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"p2.r",
+				"environments/p2.rb"
+			],
+			[
+				"auto",
+				"cookbooks/tomcat/files/default/tomcat-ssh/automatization-keys.authorized_keys"
+			],
+			[
+				"deploy.sh",
+				"cookbooks/tomcat/templates/default/deploy/deploy.sh.erb"
+			],
+			[
+				"contributing.md",
+				"CONTRIBUTING.md"
+			],
+			[
+				"readme.md",
+				"README.md"
+			],
+			[
+				"cookbooks/apache/attributes/mgmt.rb",
+				"cookbooks/apache/attributes/mgmt.rb"
+			],
+			[
+				"cookbooks/apache/attributes/www.rb",
+				"cookbooks/apache/attributes/www.rb"
+			],
+			[
+				"cookbooks/apache/templates/default/apavhost_www.erb",
+				"cookbooks/apache/templates/default/apavhost_www.erb"
+			],
+			[
+				"environments/ka.rb",
+				"environments/ka.rb"
+			],
+			[
+				"environments/p1.rb",
+				"environments/p1.rb"
+			],
+			[
+				"environments/p2.rb",
+				"environments/p2.rb"
+			],
+			[
+				"environments/t1.rb",
+				"environments/t1.rb"
+			],
+			[
+				"sh.erb",
+				"cookbooks/tomcat/templates/default/deploy/deploy.sh.erb"
+			],
+			[
+				"tc",
+				"cookbooks/tomcat/files/default/tomcat-scripts/tcinit.sh"
+			],
+			[
+				"logrotate_app.rb",
+				"cookbooks/logrotate/definitions/logrotate_app.rb"
+			],
+			[
+				"context-n",
+				"cookbooks/tomcat/templates/default/context-ng.xml"
+			],
+			[
+				"server.xm",
+				"cookbooks/tomcat/templates/default/server.xml"
+			],
+			[
+				"apa",
+				"cookbooks/apache/templates/default/apavhost_alert.erb"
+			],
+			[
+				"apaww",
+				"cookbooks/apache/templates/default/apavhost_www.erb"
+			],
+			[
+				"apamgm",
+				"cookbooks/apache/templates/default/apavhost_mgmt.erb"
+			],
+			[
+				"cookbooks/tomcat/attributes/mgmt",
+				"cookbooks/tomcat/attributes/mgmt.rb"
+			],
+			[
+				"contex",
+				"cookbooks/tomcat/templates/default/context-ng.xml"
+			],
+			[
+				"apavh",
+				"cookbooks/apache/templates/default/apavhost_www.erb"
+			],
+			[
+				"cookbooks/tomcat/recipes/default-ipa.rb",
+				"cookbooks/tomcat/recipes/default-ipa.rb"
+			],
+			[
+				"books/tomcat/attributes/mgmt.rb",
+				"cookbooks/tomcat/attributes/mgmt.rb"
+			],
+			[
+				"context-ng.old-style.backup.x",
+				"cookbooks/tomcat/templates/default/context-ng.old-style.backup.xml"
+			],
+			[
+				"context-",
+				"cookbooks/tomcat/templates/default/context-ng.xml"
+			],
+			[
+				"tomcat/recipes/default-ipa",
+				"cookbooks/tomcat/recipes/default-ipa.rb"
+			],
+			[
+				"conte",
+				"cookbooks/tomcat/templates/default/context-ng.xml"
+			],
+			[
+				"default-ipa.rb",
+				"cookbooks/tomcat/recipes/default-ipa.rb"
+			],
+			[
+				"tomrecdef-ipa",
+				"cookbooks/tomcat/recipes/default-ipa.rb"
+			],
+			[
+				"default-ipa",
+				"cookbooks/tomcat/recipes/default-ipa.rb"
+			],
+			[
+				"www-i",
+				"cookbooks/tomcat/recipes/www-ipa.rb"
+			],
+			[
+				"log-sync.sh",
+				"cookbooks/customer/files/default/nginx-log-sync/nginx-log-sync.sh"
+			],
+			[
+				"sync",
+				"cookbooks/customer/recipes/nginx-log-sync.rb"
+			],
+			[
+				"customer/attributes/default.rb",
+				"cookbooks/customer/attributes/default.rb"
+			],
+			[
+				"www-ip",
+				"cookbooks/apache/recipes/www-ipa.rb"
+			],
+			[
+				"10-remote-syslog-client.conf",
+				"cookbooks/syslog/templates/default/10-remote-syslog-client.conf"
+			],
+			[
+				"tomctat-def",
+				"cookbooks/tomcat/templates/default/tomcat-default.erb"
+			],
+			[
+				"context",
+				"cookbooks/tomcat/templates/default/context-ng.xml"
+			],
+			[
+				"p1.r",
+				"environments/p1.rb"
+			],
+			[
+				"tomcatrecipe",
+				"cookbooks/tomcat/recipes/default-ipa.rb"
+			],
+			[
+				"serverw",
+				"cookbooks/tomcat/templates/default/serverwww.xml"
+			],
+			[
+				"read",
+				"README.md"
+			],
+			[
+				"re",
+				"README.md"
+			],
+			[
+				"",
+				"README.md"
+			],
+			[
+				"99-e",
+				"cookbooks/ew-hardening/files/default/sysctl.d/99-ew-network-parameters-host.conf"
+			],
+			[
+				"ew-harde",
+				"cookbooks/ew-hardening/recipes/default.rb"
+			],
+			[
+				"sysv",
+				"cookbooks/sysview/recipes/default.rb"
+			],
+			[
+				"t1.rb",
+				"environments/t1.rb"
+			],
+			[
+				"md",
+				"README.md"
+			],
+			[
+				"chef",
+				"scripts/chef-solo.upstart.conf"
+			],
+			[
+				"issue.n",
+				"cookbooks/ew-hardening/files/default/issue.net"
+			],
+			[
+				"issu",
+				"cookbooks/ew-hardening/files/default/issue"
+			],
+			[
+				"deploy",
+				"cookbooks/tomcat/templates/default/deploy/sudoers.d/deploy"
+			],
+			[
+				"sysview",
+				"cookbooks/sysview/recipes/default.rb"
+			],
+			[
+				"ssh.rb",
+				"cookbooks/ew/recipes/ssh.rb"
+			],
+			[
+				"har",
+				"cookbooks/ew/recipes/hardening.rb"
+			],
+			[
+				"snbng-web01-t",
+				"nodes/snbng-web01-test.json"
+			],
+			[
+				"cust",
+				"cookbooks/ew/recipes/customer.rb"
+			],
+			[
+				"hard",
+				"cookbooks/ew/recipes/hardening.rb"
+			],
+			[
+				"bash_audit",
+				"cookbooks/ew-bash_audit/files/default/bash_audit"
+			],
+			[
+				"default.rb",
+				"cookbooks/tomcat/recipes/default.rb"
+			],
+			[
+				"bash_",
+				"cookbooks/ew-bash_audit/files/default/bash_audit"
+			],
+			[
+				"server",
+				"cookbooks/tomcat/templates/default/serverwww.xml"
+			],
+			[
+				"automatization-keys.authorized_keys",
+				"cookbooks/tomcat/files/default/tomcat-ssh/automatization-keys.authorized_keys"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/data/Cloud/BTSync/daten/EveryWare/Repos/customer/snbng.mit-subs/SNB-NG_mit-subs.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 379.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

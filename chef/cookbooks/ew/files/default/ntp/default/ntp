@@ -1,0 +1,11 @@
+# Dies ist eine Chef generierte Datei. Manuelle Änderungen gehen u.U. verloren!
+
+OPTIONS="-x -p /var/run/ntpd.pid"
+
+# Set to 'yes' to sync hw clock after successful ntpdate
+SYNC_HWCLOCK=yes
+
+# Additional options for ntpdate
+NTPDATE_OPTIONS=""
+
+# EOF

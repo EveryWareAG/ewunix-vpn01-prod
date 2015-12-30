@@ -1,0 +1,14 @@
+# Dies ist eine Chef generierte Datei. Manuelle Änderungen gehen u.U. verloren!
+
+# Umgebungsvariablen und solches, unabhaengig von der
+# verwendeten Shell (zsh, bash, ...)
+
+# make less more friendly for non-text input files, see lesspipe(1)
+[ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
+
+# Lynx
+if [ -r "$HOME/lynx.cfg" ]; then
+    LYNX_CFG="$HOME/lynx.cfg"; export LYNX_CFG
+fi
+
+# EOF

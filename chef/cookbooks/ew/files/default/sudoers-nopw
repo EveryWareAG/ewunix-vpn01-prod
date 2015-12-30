@@ -1,0 +1,6 @@
+# Dies ist eine Chef generierte Datei. Manuelle Änderungen gehen u.U. verloren!
+
+%sudo    ALL=(ALL) NOPASSWD:ALL
+%everyware    ALL=(ALL) NOPASSWD:ALL
+
+# EOF

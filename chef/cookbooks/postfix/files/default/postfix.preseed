@@ -1,0 +1,2 @@
+postfix	postfix/main_mailer_type	select	Internet with smarthost
+postfix	postfix/relayhost	string	212.71.126.70

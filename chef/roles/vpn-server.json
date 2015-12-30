@@ -1,0 +1,19 @@
+{
+    "name": "vpn-server",
+    "default_attributes": {
+    },
+
+    "override_attributes": { 
+    },
+
+    "json_class": "Chef::Role",
+    "description": "OpenVPN Server",
+    "chef_type": "role",
+    "run_list": [ 
+    ],
+    "env_run_lists": {
+        "prod": [
+            "recipe[vpn-server]"
+        ]
+    }
+}

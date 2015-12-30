@@ -1,0 +1,26 @@
+{
+    "name": "ew-ubuntu",
+    "default_attributes": {
+    },
+
+    "override_attributes": {
+    },
+
+    "json_class": "Chef::Role",
+    "description": "Ubuntu Node",
+    "chef_type": "role",
+
+    "run_list": [ 
+        "recipe[ew]",
+        "recipe[ew::skel]",
+        "recipe[ew::sudoers]",
+        "recipe[ew::ssh]",
+        "recipe[ew::lxc]",
+        "recipe[ew::logrotate]",
+        "recipe[ew-bash_audit]",
+
+        "recipe[unbound]",
+        "recipe[postfix]",
+        "recipe[nrpe]",
+    ]
+}

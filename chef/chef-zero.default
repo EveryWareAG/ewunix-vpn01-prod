@@ -1,0 +1,28 @@
+# Default settings for chef-zero Upstart job
+# -> /etc/default/chef-zero
+
+# Remote Repository URL from which to clone
+REPO_REMOTE="git@github.com:EveryWareAG/ewunix-vpn01-prod.git"
+
+# Directory into which to clone
+REPO_LOCAL="/opt/kitchen"
+
+# Should the local repository be removed, after chef has been run?
+#DELETE_REPO_LOCAL="yes"
+DELETE_REPO_LOCAL="no"
+
+# Path of Chef-Zero ruby configuration file
+CHEF_CONFIG="$REPO_LOCAL/chef/zero.rb"
+
+## Name of a node file for chef
+##CHEF_NODE="$REPO_LOCAL/nodes/$(hostname).json"
+#CHEF_NODE="$REPO_LOCAL/nodes/$(hostname | cut -d. -f 1).json"
+#
+## Name of the chef environment to use
+#CHEF_ENV="test"
+
+# Which branch to checkout/clone/"use"?
+BRANCH="master"
+#BRANCH="test-environment"
+
+# EOF

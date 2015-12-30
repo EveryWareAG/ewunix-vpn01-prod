@@ -1,0 +1,5 @@
+{
+  "name": "ewunix-vpn01-prod",
+  "env": "prod",
+  "run_list": ["role[ew-ubuntu]", "role[vpn-server]", "role[hardened]"]
+}
