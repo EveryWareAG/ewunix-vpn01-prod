@@ -21,6 +21,6 @@
 
         "recipe[unbound]",
         "recipe[postfix]",
-        "recipe[nrpe]",
+        "recipe[nrpe]"
     ]
 }
