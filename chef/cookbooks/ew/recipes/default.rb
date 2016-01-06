@@ -113,7 +113,4 @@ service "ntp" do
     action [ :enable, :start ]
 end # of service "rsyslog" do
 
-# "nagios-nrpe-server" Recipie ausführen
-include_recipe "ew::nagios-nrpe-server"
-
 # EOF
