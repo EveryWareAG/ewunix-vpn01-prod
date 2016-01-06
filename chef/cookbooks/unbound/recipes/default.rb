@@ -7,6 +7,10 @@
 # All rights reserved - Do Not Redistribute
 #
 
+apt_package "unbound" do
+    action :install
+end
+
 service "unbound" do
   supports :restart => true, :reload => true
   action :enable
