@@ -6,7 +6,7 @@
         "nameservers": ["172.16.2.1", "8.8.8.8", "8.8.4.4"],
         "options": {
             "timeout": 2,
-            "rotate": "nil"
+            "rotate": true
         }
     }
 }
