@@ -9,23 +9,15 @@ version           '2.1.0'
 recipe 'openvpn', 'Installs and configures openvpn'
 recipe 'openvpn::users', 'Sets up openvpn cert/configs for users data bag items'
 
-depends 'yum', '~> 3.0'
-depends 'yum-epel'
+# Ńur auf RedHat:
+# depends 'yum', '~> 3.0'
+# depends 'yum-epel'
 
 supports 'centos'
 supports 'debian'
 supports 'fedora'
 supports 'redhat'
 supports 'ubuntu'
-
-%w{centos fedora redhat}.each do |platform|
-  supports platform
-end
-
-%w{debian ubuntu}.each do |platform|
-  supports platform
-end
-
 
 attribute 'openvpn/local',
           :display_name => 'OpenVPN Local',
