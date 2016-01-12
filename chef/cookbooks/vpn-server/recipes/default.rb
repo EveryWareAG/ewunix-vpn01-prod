@@ -24,4 +24,13 @@ template "server.up.d/iptables-nat Script" do
     notifies :restart, 'service[openvpn]'
 end # of template "server.up.d/iptables-nat Script" do
 
+# Rakefile für die Erzeugung von .ovpn Dateien erstellen
+template "/etc/openvpn/easy-rsa/Rakefile-ovpn" do
+    source "Rakefile-ovpn.erb"
+
+    owner 'root'
+    group 'root'
+    mode  '0755'
+end
+
 # EOF
