@@ -18,6 +18,7 @@
         "recipe[ew::lxc]",
         "recipe[ew::logrotate]",
         "recipe[ew-bash_audit]",
+        "recipe[nrpe]",
 
         "recipe[unbound]",
         "recipe[postfix]",

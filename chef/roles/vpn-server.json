@@ -10,6 +10,7 @@
     "description": "OpenVPN Server",
     "chef_type": "role",
     "run_list": [ 
+        "recipe[vpn-server]"
     ],
     "env_run_lists": {
         "prod": [

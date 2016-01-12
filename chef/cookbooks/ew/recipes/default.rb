@@ -15,6 +15,9 @@ include_recipe "openssh"
 # "resolver" Cookbook "ausführen" - erzeugt /etc/resolv.conf
 include_recipe 'resolver'
 
+# "ew::repos" Cookbook "ausführen" - passt Ubuntu Repositories in /etc/apt an.
+include_recipe 'resolver'
+
 #############################################
 # Wichtige grundlegende Basics!
 

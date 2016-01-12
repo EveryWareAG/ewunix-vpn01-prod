@@ -644,7 +644,8 @@
 	},
 	"expanded_folders":
 	[
-		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod"
+		"/home/a/Repos/ew/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod",
+		"/home/a/Repos/ew/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef"
 	],
 	"file_history":
 	[
@@ -1383,7 +1384,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 379.0,
+	"side_bar_width": 266.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
