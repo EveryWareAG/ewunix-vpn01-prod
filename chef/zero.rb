@@ -9,9 +9,9 @@ require 'ohai'
 o = Ohai::System.new
 o.all_plugins
 
-local_mode					true
-chef_zero.enabled			true
-chef_zero.port				10000-20000
+local_mode                  true
+chef_zero.enabled           true
+chef_zero.port              10000-20000
 
 file_cache_path             "/var/chef/cache"
 file_backup_path            "/var/chef/backup"
