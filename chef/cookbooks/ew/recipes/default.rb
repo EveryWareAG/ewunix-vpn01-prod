@@ -66,9 +66,9 @@ end
 #############################################
 # Extra Pakete installieren
 node[:ew][:extra_packages].each do |pkg|
-    package "Install extra package " + pkg
+    package "Install extra package " + pkg do
         package_name pkg
-        
+
         action :install
     end # of package "Install extra package " + pkg
 end # of node[:ew][:extra_packages].each do |pkg|
