@@ -65,24 +65,27 @@ end
 
 #############################################
 # Extra Pakete installieren
-# Wir brauchen "make" und "zsh"
-%w[make zsh].each do |pkg|
-    package "EveryWare Extra Paket installieren: " + pkg do
-        package_name pkg
-        action :install
-    end # of package "EveryWare Extra Paket installieren: " + pkg do
-end # end of %w[make zsh].each do |pkg|
+package node[:ew][:extra_packages] do
+    action :install
+end # of package node[:ew][:extra_packages]
 
 #############################################
+# User
+# "Standard" User Account "local" anlegen
+user "local" do
+    username "local"
+    comment "Unnamed local default user"
+    manage_home true
+    action :create
+end # of user "local" do
+
 # Shell von "Standardusern" auf zsh ändern
 %w[local root].each do |username|
-    bash "Login Shell für User " + username + " auf zsh ändern" do
-        user "root"
-        code <<-EOchsh
-            chsh -s /bin/zsh #{username}
-        EOchsh
-        not_if "getent passwd " + username + " | grep 'zsh$'"
-    end # of bash "Login Shell für User " + username + " auf zsh ändern" do
+    user "Set login shell to zsh for user " + username do
+        username username
+        shell "/bin/zsh"
+        action :modify
+    end # of user "Set login shell to zsh for user " + username do
 end # of %w[local root].each do |username|
 
 #############################################
@@ -90,11 +93,14 @@ end # of %w[local root].each do |username|
 remote_directory "ntp default Dateien für /etc/default" do
     path "/etc/default"
     source "ntp/default"
+
     files_mode "0644"
     files_owner "root"
+
     mode "0755"
     owner "root"
     group "root"
+
     purge false
 end # of remote_directory "ntp default Dateien für /etc/default" do
 

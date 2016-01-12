@@ -1,4 +1,5 @@
-default['ew']['aptweek'] = ""
+default[:ew][:aptweek] = ""
+default[:ew][:extra_packages] = %w{make zsh}
 
 ### OpenSSH
 # Parameter für sshd_config - wird von openssh Cookbook verwendet.
