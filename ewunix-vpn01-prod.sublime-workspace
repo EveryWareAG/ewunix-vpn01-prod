@@ -171,6 +171,33 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "chef/roles/ew-ubuntu.json",
+			"settings":
+			{
+				"buffer_size": 498,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "chef/nodes/ewunix-vpn01-prod.json",
+			"settings":
+			{
+				"buffer_size": 124,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "{\n    \"name\": \"vpn-server\",\n    \"default_attributes\": {\n    },\n\n    \"override_attributes\": { \n    },\n\n    \"json_class\": \"Chef::Role\",\n    \"description\": \"OpenVPN Server\",\n    \"chef_type\": \"role\",\n    \"run_list\": [ \n        \"recipe[vpn-server]\"\n    ],\n    \"env_run_lists\": {\n        \"prod\": [\n            \"recipe[vpn-server]\"\n        ]\n    }\n}\n",
+			"file": "chef/roles/vpn-server.json",
+			"file_size": 314,
+			"file_write_time": 130959593115489318,
+			"settings":
+			{
+				"buffer_size": 343,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -180,17 +207,9 @@
 	"command_palette":
 	{
 		"height": 96.0,
-		"last_filter": "project s",
+		"last_filter": "git push",
 		"selected_items":
 		[
-			[
-				"project s",
-				"Project: Save As"
-			],
-			[
-				"add ",
-				"Project: Add Folder"
-			],
 			[
 				"git push",
 				"Git: Push"
@@ -202,6 +221,26 @@
 			[
 				"git ad",
 				"Git: Add Current File"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"comme",
+				"Toggle Comment"
+			],
+			[
+				"project s",
+				"Project: Save As"
+			],
+			[
+				"add ",
+				"Project: Add Folder"
 			],
 			[
 				"ref",
@@ -224,20 +263,12 @@
 				"Git: Push"
 			],
 			[
-				"git add",
-				"Git: Add Current File"
-			],
-			[
 				"add",
 				"Git: Add Current File"
 			],
 			[
 				"git comm",
 				"Git: Commit"
-			],
-			[
-				"git stat",
-				"Git: Status"
 			],
 			[
 				"diff all",
@@ -298,10 +329,6 @@
 			[
 				"git statu",
 				"Git: Status"
-			],
-			[
-				"comme",
-				"Toggle Comment"
 			],
 			[
 				"status",
@@ -644,11 +671,40 @@
 	},
 	"expanded_folders":
 	[
+<<<<<<< HEAD
 		"/home/a/Repos/ew/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod",
 		"/home/a/Repos/ew/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef"
+=======
+		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod",
+		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef",
+		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/cookbooks",
+		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/cookbooks/ew",
+		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/environments",
+		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/nodes",
+		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/roles"
+>>>>>>> 52415607135e6d9af1c1b3a405f9cfd70ad2b50f
 	],
 	"file_history":
 	[
+		"/data/HOME/Repos/EW/customer/web-default-vhost/cookbooks/tomcat/attributes/www.rb",
+		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/CHANGELOG.md",
+		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/README.md",
+		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/zero.rb",
+		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/nodes/ewunix-vpn01-prod.intern.ewcs.ch.json",
+		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/nodes/ewunix-vpn01-prod.json",
+		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/roles/vpn-server.json",
+		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/roles/hardened.json",
+		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/roles/ew-ubuntu.json",
+		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/cookbooks/ew/recipes/default.rb",
+		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/cookbooks/ew/recipes/logrotate.rb",
+		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/cookbooks/default/recipes/default.rb",
+		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/cookbooks/apt/metadata.rb",
+		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/cookbooks/default/files/default/etc.hosts.test",
+		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/cookbooks/default/files/default/etc.hosts.prod",
+		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/environments/test.rb",
+		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/environments/prod.rb",
+		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/chef-zero.upstart.conf",
+		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/chef-zero.default",
 		"/home/ask/Repos/EW/customer/snbng/environments/p2.rb",
 		"/home/ask/Repos/EW/customer/snbng/environments/t1.rb",
 		"/home/ask/Repos/EW/customer/snbng/cookbooks/tomcat/templates/default/deploy/deploy.sh.erb",
@@ -757,26 +813,7 @@
 		"/data/HOME/Repos/EW/customer/snbng/cookbooks/apache/recipes/default.rb",
 		"/data/HOME/Repos/EW/customer/snbng/cookbooks/tomcat/recipes/mgmt-ipa.rb",
 		"/data/HOME/Repos/EW/customer/snbng/cookbooks/tomcat/attributes/www.rb",
-		"/data/HOME/Repos/EW/customer/snbng/cookbooks/tomcat/attributes/mgmt.rb",
-		"/data/HOME/Repos/EW/customer/snbng/cookbooks/tomcat/recipes/default-ipa.rb",
-		"/data/HOME/Repos/EW/customer/snbng/cookbooks/tomcat/recipes/www-ipa.rb",
-		"/home/ask/Repos/EW/customer/snbng/lxc-template-snbng/README.md",
-		"/scripts/chef-solo.upstart.conf",
-		"/data/HOME/Repos/EW/icinga-conf/icinga-etc/unix/hosts/jobs/jobsuchmaschine.ch.cfg",
-		"/data/HOME/Repos/EW/customer/snbng/cookbooks/ew-hardening/recipes/default.rb",
-		"/data/HOME/Repos/EW/customer/snbng/cookbooks/customer/attributes/default.rb",
-		"/data/HOME/Repos/EW/customer/snbng/cookbooks/tomcat/files/default/snb-ssh/snb-sys.txt",
-		"/data/HOME/Repos/EW/customer/snbng/roles/mgmt.json",
-		"/data/HOME/Repos/EW/customer/snbng/cookbooks/customer/recipes/default-ipa.rb",
-		"/data/HOME/Repos/EW/customer/snbng/cookbooks/ew/README.md",
-		"/data/HOME/Repos/EW/customer/snbng/cookbooks/apache/README.md",
-		"/data/HOME/Repos/EW/customer/snbng/cookbooks/apache/CHANGELOG.md",
-		"/data/HOME/Repos/EW/customer/snbng/cookbooks/customer/recipes/default.rb",
-		"/data/HOME/Repos/EW/customer/snbng/cookbooks/ew-hardening/files/default/sysctl.d/99-ew-network-parameters-host.conf",
-		"/data/HOME/Repos/EW/customer/snbng/cookbooks/tomcat/files/default/deploy/deploy.sh",
-		"/data/HOME/Repos/EW/customer/snbng/environments/p2.rb",
-		"/data/HOME/Repos/EW/customer/snbng/cookbooks/tomcat/templates/default/serverwww.xml",
-		"/data/HOME/Repos/EW/customer/snbng/cookbooks/syslog/templates/default/10-remote-syslog-client.conf"
+		"/data/HOME/Repos/EW/customer/snbng/cookbooks/tomcat/attributes/mgmt.rb"
 	],
 	"find":
 	{
@@ -797,6 +834,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"/tmp/chef-solo",
 			"unzip",
 			"log(",
 			"log ",
@@ -923,8 +961,7 @@
 			" $",
 			"°",
 			"§",
-			"é",
-			"à"
+			"é"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -932,6 +969,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"/opt/kitchen",
 			"tRKiY4L3N1Ts",
 			"cassons",
 			".#{node['hostname']}.",
@@ -1026,8 +1064,97 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "chef/roles/ew-ubuntu.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 498,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								99,
+								99
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "chef/nodes/ewunix-vpn01-prod.json",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 124,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								82,
+								82
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "chef/roles/vpn-server.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 343,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								273,
+								273
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -1078,7 +1205,7 @@
 	"project": "ewunix-vpn01-prod.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
