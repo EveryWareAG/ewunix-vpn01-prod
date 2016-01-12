@@ -4,6 +4,16 @@
     },
 
     "override_attributes": { 
+        "openvpn": {
+            "script_security": 2,
+            "key": {
+                "country": "CH",
+                "province": "ZRH",
+                "city": "Zurich",
+                "org": "EveryWare AG",
+                "email": "unix@everyware.ch"
+            }
+        }
     },
 
     "json_class": "Chef::Role",
@@ -11,10 +21,5 @@
     "chef_type": "role",
     "run_list": [ 
         "recipe[vpn-server]"
-    ],
-    "env_run_lists": {
-        "prod": [
-            "recipe[vpn-server]"
-        ]
-    }
+    ]
 }
