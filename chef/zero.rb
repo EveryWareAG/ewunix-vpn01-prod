@@ -6,7 +6,7 @@ require 'ohai'
 o = Ohai::System.new
 o.all_plugins
 
-file_cache_path             "/opt/kitchen/chef"
+file_cache_path             "/var/chef/cache"
 cookbook_path               "/opt/kitchen/chef/cookbooks"
 role_path                   "/opt/kitchen/chef/roles"
 json_attribs                "/opt/kitchen/chef/nodes/#{o[:hostname]}.json"
@@ -21,3 +21,4 @@ ssl_verify_mode             :verify_peer
 
 log_level                   :info
 log_location                "/var/log/chef-zero.log"
+
