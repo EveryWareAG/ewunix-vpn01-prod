@@ -34,3 +34,6 @@ default['openvpn']['key']['size']      = 2048
 # default['openvpn']['key']['city']      = 'SanFrancisco'
 # default['openvpn']['key']['org']       = 'Fort-Funston'
 # default['openvpn']['key']['email']     = 'me@example.com'
+
+# opendns Resolver nutzen
+default['openvpn']['dhcp_dns']      = '208.67.222.222'
