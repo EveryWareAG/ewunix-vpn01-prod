@@ -82,9 +82,10 @@ EOF
 
   puts "* Generate configuration files for #{usercn}"
   ["ovpn"].each do |config|
-    File.open("#{keydir}/../user-conf/#{usercn}.#{config}", "w") do |file|
+    config_file_name = "#{keydir}/../user-conf/#{usercn}@<%= node['openvpn']['gateway'] %>.#{config}"
+    File.open(config_file_name, "w") do |file|
       file.puts conf
     end
-    puts "* Done, #{usercn} configuration is in #{keydir}/../user-conf/#{usercn}.#{config}"
+    puts "* Done, #{usercn} configuration is in #{config_file_name}"
   end
 end
