@@ -44,6 +44,14 @@ template "/etc/openvpn/easy-rsa/Rakefile-ovpn" do
     mode  '0755'
 end
 
+cookbook_file '/etc/openvpn/update-resolv-conf' do
+    source 'openvpn/update-resolv-conf'
+
+    owner 'root'
+    group 'root'
+    mode '0755'
+end # of cookbook_file '/etc/openvpn/update-resolv-conf' do
+
 # "rake" Paket wird benötigt
 package 'rake' do
     action :install
