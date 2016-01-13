@@ -20,7 +20,6 @@ bash "Shell Timeout TMOUT setzen auf " + tmout_h.to_s + "h = " + tmout_s.to_s + 
 # Shell Timeout = %s hours = %s seconds
 TMOUT=%s; readonly TMOUT; export TMOUT\n" #{tmout_h} #{tmout_s} #{tmout_s} >> /etc/bash.bashrc
     EOtmout
-    #not_if "grep -q ^TMOUT= /etc/bash.bashrc"
     not_if {::File.foreach("/etc/bash.bashrc").grep(/^TMOUT=/).any?}
 end # of bash "Shell Timeout TMOUT setzen" do
 
@@ -34,7 +33,6 @@ bash "umask restriktiv auf " + umaskrc + " setzen in bashrc" do
 # umask restriktiv setzen auf %s
 umask %s\n\n" #{umaskrc} #{umaskrc} >> /etc/bash.bashrc
     EOumask
-    #not_if "grep -q '^umask " + umaskrc + "' /etc/bash.bashrc"
     not_if {::File.foreach("/etc/bash.bashrc").grep(/^umask #{umaskrc}/).any?}
 end # of bash "umask restrikiv auf " + umaskrc + "setzen in bashrc" do
 
@@ -44,7 +42,6 @@ bash "umask restriktiv auf " + umaskdefs + " setzen in /etc/login.defs" do
     code <<-EOumask
         perl -pi -e 's,^(UMASK.*),\n# umask restriktiv setzen auf #{umaskdefs}\n# Alt: $1\nUMASK #{umaskdefs}\n,' /etc/login.defs
     EOumask
-    #not_if "grep -q '^UMASK #{umaskdefs}' /etc/login.defs"
     not_if {::File.foreach("/etc/login.defs").grep(/^UMASK #{umaskdefs}/).any?}
 end # of bash "umask restrikiv auf " + umaskdefs + "setzen in /etc/login.defs" do
 
