@@ -9,6 +9,17 @@
 
 # Wrapper Cookbook für das "openvpn" Cookbook
 
+# Verzeichnisse erzeugen - rekursiv.
+[node['openvpn']['key_dir'], node['openvpn']['key_dir'] + '/../user-conf'].each do |dir|
+    directory dir do
+        owner 'root'
+        group 'root'
+        mode '0755'
+
+        recursive true
+    end # of directory dir do
+end # of [node['openvpn']['key_dir'], node['openvpn']['key_dir'] + '/../user-conf'].each do |dir|
+
 # Rufe das openvpn::default Recipe auf
 include_recipe 'openvpn'
 
@@ -33,15 +44,9 @@ template "/etc/openvpn/easy-rsa/Rakefile-ovpn" do
     mode  '0755'
 end
 
-# Verzeichnis für User Conf
-directory node['openvpn']['key_dir'] + '/../user-conf' do
-    owner 'root'
-    group 'root'
-    mode '0755'
-end # of directory default['openvpn']['key_dir'] + '/../user-conf' do
-
 # "rake" Paket wird benötigt
 package 'rake' do
     action :install
 end # of package 'rake' do
+
 # EOF
