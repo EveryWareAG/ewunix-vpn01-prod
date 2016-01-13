@@ -33,4 +33,8 @@ template "/etc/openvpn/easy-rsa/Rakefile-ovpn" do
     mode  '0755'
 end
 
+# "rake" Paket wird benötigt
+package 'rake' do
+    action :install
+end # of package 'rake' do
 # EOF
