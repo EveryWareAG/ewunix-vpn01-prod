@@ -91,6 +91,15 @@ openvpn_conf 'server' do
   notifies :restart, 'service[openvpn]'
 end
 
+# Hilfsscript, um User anlegen zu können
+cookbook_file '/etc/openvpn/easy-rsa/generate.sh' do
+    source 'openvpn/easy-rsa/generate.sh'
+
+    owner 'root'
+    group 'root'
+    mode '0755'
+end # of cookbook_file '/etc/openvpn/easy-rsa/revoke.sh' do
+
 # Hilfsscript, um User revoken zu können
 cookbook_file '/etc/openvpn/easy-rsa/revoke.sh' do
     source 'openvpn/easy-rsa/revoke.sh'
