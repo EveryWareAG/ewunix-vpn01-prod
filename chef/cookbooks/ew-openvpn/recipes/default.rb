@@ -33,6 +33,13 @@ template "/etc/openvpn/easy-rsa/Rakefile-ovpn" do
     mode  '0755'
 end
 
+# Verzeichnis für User Conf
+directory default['openvpn']['key_dir'] + '/../user-conf' do
+    owner 'root'
+    group 'root'
+    mode '0755'
+end # of directory default['openvpn']['key_dir'] + '/../user-conf' do
+
 # "rake" Paket wird benötigt
 package 'rake' do
     action :install
