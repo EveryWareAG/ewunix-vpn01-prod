@@ -8,7 +8,7 @@
 # default['openvpn']['type']            = 'server'
 # default['openvpn']['subnet']          = '10.8.0.0'
 # default['openvpn']['netmask']         = '255.255.0.0'
-# default['openvpn']['gateway']         = "vpn.#{node["domain"]}"
+default['openvpn']['gateway']         = node[:fqdn]
 # default['openvpn']['log']             = '/var/log/openvpn.log'
 # default['openvpn']['key_dir']         = '/etc/openvpn/keys'
 # default['openvpn']['signing_ca_key']  = "#{node["openvpn"]["key_dir"]}/ca.key"
