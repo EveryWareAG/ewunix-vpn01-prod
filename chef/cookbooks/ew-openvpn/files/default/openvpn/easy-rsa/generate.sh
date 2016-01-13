@@ -9,7 +9,7 @@ if [ -z "$name" ]; then
 fi
 
 cd /etc/openvpn/easy-rsa
-source vars
+. ./vars
 rake -f Rakefile-ovpn client gateway=$(hostname -f) name="$name"
 
 exit $?
