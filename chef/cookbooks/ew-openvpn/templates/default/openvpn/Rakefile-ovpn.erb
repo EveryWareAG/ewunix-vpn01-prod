@@ -49,13 +49,17 @@ task :client do
 
   ca = File.open("#{keydir}/ca.crt", "r").read
   cert = File.open("#{keydir}/#{usercn}.crt", "r").read
-  key = File.open("#{keydir}/#{usercn}.key", "r").read
+  key = File.open("#{keydir}/#{usercn}.key", "r").read  
+  tlskey = File.open("<%= node['openvpn']['tls_key'] %>", "r").read if File.exists?("<%= node['openvpn']['tls_key'] %>")
 
     conf = <<EOF
+
+# #{usercn}@#{gateway}:<%= node['openvpn']['port'] %>/<%= node['openvpn']['proto'] %>
+
 client
 dev tun
 proto <%= node['openvpn']['proto'] %>
-remote <%= node['openvpn']['gateway'] %> <%= node['openvpn']['port'] %>
+remote #{gateway} <%= node['openvpn']['port'] %>
 resolv-retry infinite
 nobind
 persist-key
@@ -78,6 +82,16 @@ route-delay 1
 <key>
 #{key}
 </key>
+
+<% if node['openvpn']['tls_key'] %>
+key-direction 1
+<tls-auth>
+#{tlskey}
+</tls-auth>
+<% else %>
+# no tls_key defined
+<% end %>
+
 EOF
 
   puts "* Generate configuration files for #{usercn}"

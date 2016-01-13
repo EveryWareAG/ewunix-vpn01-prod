@@ -28,7 +28,7 @@ default['openvpn']['gateway']         = node[:fqdn]
 # # Used by helper library to generate certificates/keys
 # default['openvpn']['key']['ca_expire'] = 3650
 # default['openvpn']['key']['expire']    = 3650
-default['openvpn']['key']['size']      = 2048
+default['openvpn']['key']['size']     = 2048
 # default['openvpn']['key']['country']   = 'US'
 # default['openvpn']['key']['province']  = 'CA'
 # default['openvpn']['key']['city']      = 'SanFrancisco'
@@ -37,3 +37,13 @@ default['openvpn']['key']['size']      = 2048
 
 # opendns Resolver nutzen
 default['openvpn']['dhcp_dns']      = '208.67.222.222'
+
+# NICHT den default_server konfigurieren, da auch dhcp_dns zu
+# setzen ist.
+default['openvpn']['configure_default_server'] = false
+
+# tls-auth Key verwenden
+default['openvpn']['tls_key']         = "#{node["openvpn"]["key_dir"]}/tls-ca.key"
+
+# Mehr Log Ausgaben
+default['openvpn']['verb']            = 3
