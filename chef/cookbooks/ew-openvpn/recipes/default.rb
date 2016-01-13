@@ -34,7 +34,7 @@ template "/etc/openvpn/easy-rsa/Rakefile-ovpn" do
 end
 
 # Verzeichnis für User Conf
-directory default['openvpn']['key_dir'] + '/../user-conf' do
+directory node['openvpn']['key_dir'] + '/../user-conf' do
     owner 'root'
     group 'root'
     mode '0755'
