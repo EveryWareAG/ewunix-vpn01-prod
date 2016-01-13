@@ -2,7 +2,7 @@
 
 name "openvpn-server"
 description "The server that runs OpenVPN"
-run_list("recipe[vpn-server]")
+run_list("recipe[ew-openvpn]")
 override_attributes(
     "openvpn" => {
         "script_security" => 2,

@@ -1,4 +1,4 @@
-name                'vpn-server'
+name                'ew-openvpn'
 maintainer          'EveryWare AG'
 maintainer_email    'alexander.skwar@everyware.ch'
 license             'All rights reserved'

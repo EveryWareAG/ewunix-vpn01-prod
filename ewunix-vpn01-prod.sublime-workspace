@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"di",
+				"directory"
+			],
+			[
+				"snb",
+				"snbwebsite"
+			],
+			[
+				"inst",
+				"instance_def"
+			],
+			[
+				"serv",
+				"server_name"
+			],
+			[
+				"ins",
+				"instance_def"
+			],
+			[
+				"ww",
+				"www_ssl"
+			],
+			[
+				"insn",
+				"instances"
+			],
+			[
 				"exit",
 				"exitcode"
 			],
@@ -156,10 +184,6 @@
 				"tcinstance_app"
 			],
 			[
-				"inst",
-				"install_commands"
-			],
-			[
 				"cta",
 				"catalina_base"
 			],
@@ -171,33 +195,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "chef/roles/ew-ubuntu.json",
-			"settings":
-			{
-				"buffer_size": 498,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "chef/nodes/ewunix-vpn01-prod.json",
-			"settings":
-			{
-				"buffer_size": 124,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "{\n    \"name\": \"vpn-server\",\n    \"default_attributes\": {\n    },\n\n    \"override_attributes\": { \n    },\n\n    \"json_class\": \"Chef::Role\",\n    \"description\": \"OpenVPN Server\",\n    \"chef_type\": \"role\",\n    \"run_list\": [ \n        \"recipe[vpn-server]\"\n    ],\n    \"env_run_lists\": {\n        \"prod\": [\n            \"recipe[vpn-server]\"\n        ]\n    }\n}\n",
-			"file": "chef/roles/vpn-server.json",
-			"file_size": 314,
-			"file_write_time": 130959593115489318,
-			"settings":
-			{
-				"buffer_size": 343,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -215,12 +212,32 @@
 				"Git: Push"
 			],
 			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"add",
+				"Git: Add Current File"
+			],
+			[
+				"refre",
+				"Project: Refresh Folders"
+			],
+			[
+				"close",
+				"File: Close All"
+			],
+			[
 				"git com",
 				"Git: Commit"
 			],
 			[
 				"git ad",
 				"Git: Add Current File"
+			],
+			[
+				"git st",
+				"Git: Status"
 			],
 			[
 				"git stat",
@@ -231,8 +248,36 @@
 				"Git: Add..."
 			],
 			[
+				"git diff",
+				"Git: Diff All Files"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
 				"comme",
 				"Toggle Comment"
+			],
+			[
+				"com",
+				"Toggle Comment"
+			],
+			[
+				"stat",
+				"Git: Status"
+			],
+			[
+				"comment",
+				"Toggle Comment"
+			],
+			[
+				"commen",
+				"Toggle Comment"
+			],
+			[
+				"rub",
+				"Set Syntax: Ruby"
 			],
 			[
 				"project s",
@@ -247,14 +292,6 @@
 				"Project: Refresh Folders"
 			],
 			[
-				"close",
-				"File: Close All"
-			],
-			[
-				"git status",
-				"Git: Status"
-			],
-			[
 				"clo",
 				"File: Close All"
 			],
@@ -263,20 +300,8 @@
 				"Git: Push"
 			],
 			[
-				"add",
-				"Git: Add Current File"
-			],
-			[
-				"git comm",
-				"Git: Commit"
-			],
-			[
 				"diff all",
 				"Git: Diff All Files"
-			],
-			[
-				"refre",
-				"Project: Refresh Folders"
 			],
 			[
 				"bash",
@@ -347,20 +372,12 @@
 				"Git: Commit"
 			],
 			[
-				"com",
-				"Toggle Comment"
-			],
-			[
 				"ad",
 				"Git: Add..."
 			],
 			[
 				"git sttus",
 				"Git: Status"
-			],
-			[
-				"git diff",
-				"Git: Diff All Files"
 			],
 			[
 				"comm",
@@ -377,10 +394,6 @@
 			[
 				"tog",
 				"Toggle Comment"
-			],
-			[
-				"git st",
-				"Git: Status"
 			],
 			[
 				"git statsu",
@@ -420,10 +433,6 @@
 			],
 			[
 				"togg",
-				"Toggle Comment"
-			],
-			[
-				"comment",
 				"Toggle Comment"
 			],
 			[
@@ -651,7 +660,7 @@
 				"View: Toggle Menu"
 			]
 		],
-		"width": 449.0
+		"width": 530.0
 	},
 	"console":
 	{
@@ -671,46 +680,62 @@
 	},
 	"expanded_folders":
 	[
-<<<<<<< HEAD
-		"/home/a/Repos/ew/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod",
-		"/home/a/Repos/ew/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef"
-=======
-		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod",
-		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef",
-		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/cookbooks",
-		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/cookbooks/ew",
-		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/environments",
-		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/nodes",
-		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/roles"
->>>>>>> 52415607135e6d9af1c1b3a405f9cfd70ad2b50f
+		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod"
 	],
 	"file_history":
 	[
-		"/data/HOME/Repos/EW/customer/web-default-vhost/cookbooks/tomcat/attributes/www.rb",
-		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/CHANGELOG.md",
-		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/README.md",
-		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/zero.rb",
-		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/nodes/ewunix-vpn01-prod.intern.ewcs.ch.json",
-		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/nodes/ewunix-vpn01-prod.json",
-		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/roles/vpn-server.json",
-		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/roles/hardened.json",
-		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/roles/ew-ubuntu.json",
-		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/cookbooks/ew/recipes/default.rb",
-		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/cookbooks/ew/recipes/logrotate.rb",
-		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/cookbooks/default/recipes/default.rb",
-		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/cookbooks/apt/metadata.rb",
-		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/cookbooks/default/files/default/etc.hosts.test",
-		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/cookbooks/default/files/default/etc.hosts.prod",
-		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/environments/test.rb",
-		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/environments/prod.rb",
-		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/chef-zero.upstart.conf",
-		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/chef-zero.default",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/nginx-snb/templates/default/nginx-conf/vhost/snbwebsite.conf.erb",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/nginx-snb/recipes/nginx-conf.rb",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/nginx-snb/recipes/default.rb",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/nginx-snb/recipes/os-conf.rb",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/nginx-snb/attributes/default.rb",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/nginx-snb/templates/default/nginx-conf/etc/nginx.conf.erb",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/nginx-snb/templates/default/nginx-conf/vhost/000-default.conf.erb",
+		"/data/HOME/Repos/EW/customer/nginx-log-files/cookbooks/customer/recipes/nginx-log-sync.rb",
+		"/home/ask/Repos/EW/customer/snbng/environments/t2.rb",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/customer/recipes/nginx-log-sync.rb",
+		"/data/HOME/Repos/EW/customer/nginx-log-files/environments/t2.rb",
 		"/home/ask/Repos/EW/customer/snbng/environments/p2.rb",
-		"/home/ask/Repos/EW/customer/snbng/environments/t1.rb",
-		"/home/ask/Repos/EW/customer/snbng/cookbooks/tomcat/templates/default/deploy/deploy.sh.erb",
-		"/home/ask/Repos/EW/customer/snbng/cookbooks/tomcat/files/default/tomcat-ssh/automatization-keys.authorized_keys",
 		"/home/ask/Repos/EW/customer/snbng/environments/p1.rb",
 		"/home/ask/Repos/EW/customer/snbng/environments/ka.rb",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/nginx-snb/files/default/nginx-conf/etc/conf.d/geo.conf",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/nginx-snb/files/default/nginx-conf/etc/conf.d/gzip.conf",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/nginx-snb/files/default/nginx-conf/etc/fastcgi_params",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/nginx-snb/files/default/nginx-conf/etc/koi-utf",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/nginx-snb/files/default/nginx-conf/etc/mime.types",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/nginx-snb/files/default/nginx-conf/etc/scgi_params",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/nginx-snb/files/default/nginx-conf/etc/geo-ips.conf",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/nginx-snb/files/default/nginx-conf/etc/koi-win",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/nginx-snb/files/default/nginx-conf/etc/uwsgi_params",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/nginx-snb/files/default/nginx-conf/etc/win-utf",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/nginx-snb/files/default/periodic.daily/100.nginx",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/nginx-snb/files/default/periodic.daily/103.nginx",
+		"/home/ask/Repos/EW/customer/snbng/environments/t1.rb",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/nginx-snb/files/default/nginx-conf/etc/ssl.conf",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/nginx-snb/templates/default/html/50x.html.erb",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/nginx-snb/templates/default/html/403.html.erb",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/nginx-snb/templates/default/html/404.html.erb",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/nginx-snb/templates/default/html/500.html.erb",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/nginx-snb/templates/default/html/503.html.erb",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/nginx-snb/recipes/base-conf.rb",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/nginx-snb/templates/default/nginx.conf.erb",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/nginx-snb/templates/default/000-default.conf.erb",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/nginx-snb/templates/default/proxy.conf.erb",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/nginx-snb/templates/default/snbwebsite.erb",
+		"/home/ask/tmp/SNB-NG/untitled.rb",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/varnish-snb/recipes/default.rb",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/nginx-snb/files/default/rc.conf.d/nginxd",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/nginx-snb/templates/default/snbwebsite.old-style.erb",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/nginx-snb/templates/default/ssl.conf.erb",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/nginx-snb/templates/default/500.html.erb",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/nginx-snb/templates/default/410.html.erb",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/nginx-snb/templates/default/404.html.erb",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/nginx-snb/templates/default/403.html.erb",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/nginx-snb/files/default/errorpages.conf",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/nginx-snb/templates/default/errorpages.conf.erb",
+		"/data/HOME/Repos/EW/customer/stable/environments/p2.rb",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/tomcat/templates/default/deploy/deploy.sh.erb",
+		"/home/ask/Repos/EW/customer/snbng/cookbooks/tomcat/files/default/tomcat-ssh/automatization-keys.authorized_keys",
 		"/home/ask/Repos/EW/customer/snbng/cookbooks/apache/templates/default/apavhost_www.erb",
 		"/home/ask/Repos/EW/customer/snbng/cookbooks/apache/attributes/www.rb",
 		"/home/ask/Repos/EW/customer/snbng/cookbooks/apache/attributes/mgmt.rb",
@@ -781,39 +806,12 @@
 		"/home/ask/Repos/EW/customer/snbng/nodes/snbng-web01-test.json",
 		"/home/ask/Repos/EW/customer/snbng/roles/app.json",
 		"/home/ask/Repos/EW/customer/snbng/roles/mgmt.json",
-		"/home/ask/Repos/EW/customer/snbng/environments/t2.rb",
 		"/data/HOME/Repos/EW/customer/deploy-to-mgmt-system/cookbooks/tomcat/attributes/default.rb",
 		"/home/ask/Repos/EW/customer/snbng/nodes/snbng-mgmt02-ka.json",
 		"/home/ask/Repos/EW/customer/snbng/nodes/snbng-mgmt01-test.json",
 		"/home/ask/Repos/EW/customer/snbng/lxc-template-snbng/deploys/snbng-mgmt01-ka.sh",
 		"/home/ask/Repos/EW/customer/snbng/lxc-template-snbng/deploys/snbng-mgmt01-prod.sh",
-		"/home/ask/Repos/EW/customer/snbng/lxc-template-snbng/deploys/snbng-mgmt01-test.sh",
-		"/home/ask/Repos/EW/customer/snbng/lxc-template-snbng/deploys/snbng-mgmt02-ka.sh",
-		"/home/ask/Repos/EW/customer/snbng/lxc-template-snbng/deploys/snbng-mgmt02-prod.sh",
-		"/home/ask/Repos/EW/customer/snbng/lxc-template-snbng/deploys/snbng-test01-ka.sh",
-		"/home/ask/Repos/EW/customer/snbng/lxc-template-snbng/deploys/snbng-test01-prod.sh",
-		"/home/ask/Repos/EW/customer/snbng/lxc-template-snbng/deploys/snbng-test01-test.sh",
-		"/home/ask/Repos/EW/customer/snbng/lxc-template-snbng/deploys/snbng-test02-prod.sh",
-		"/home/ask/Repos/EW/customer/snbng/lxc-template-snbng/deploys/snbng-web01-ka.sh",
-		"/home/ask/Repos/EW/customer/snbng/lxc-template-snbng/deploys/snbng-web01-prod.sh",
-		"/home/ask/Repos/EW/customer/snbng/lxc-template-snbng/deploys/snbng-web01-test.sh",
-		"/home/ask/Repos/EW/customer/snbng/lxc-template-snbng/deploys/snbng-web02-prod.sh",
-		"/home/ask/Repos/EW/customer/snbng/lxc-template-snbng/deploys/snbng-web02-test.sh",
-		"/data/HOME/Repos/EW/customer/deploy-to-mgmt-system/cookbooks/tomcat/templates/default/deploy/deploy.cfg",
-		"/data/HOME/Repos/EW/customer/deploy-to-mgmt-system/README.md",
-		"/data/HOME/Repos/EW/customer/deploy-to-mgmt-system/cookbooks/ew-bash_audit/recipes/default.rb",
-		"/data/HOME/Repos/EW/customer/deploy-to-mgmt-system/cookbooks/ew-ipa/recipes/default.rb",
-		"/data/HOME/Repos/EW/customer/deploy-to-mgmt-system/cookbooks/oraclejava/recipes/default.rb",
-		"/data/HOME/Repos/EW/customer/snbng/lxc-template-snbng/scripts/chef-solo.upstart.conf",
-		"/home/ask/Repos/EW/customer/snbng/Tickets/70842-7904121214.Context XML Einträge.txt",
-		"/home/ask/Repos/EW/customer/snbng/cookbooks/customer/files/default/nginx-log-sync/nginx-log-sync.sh",
-		"/home/ask/Repos/EW/customer/snbng/cookbooks/customer/recipes/nginx-log-sync.rb",
-		"/tmp/jstack.txt",
-		"/data/HOME/Repos/EW/customer/snbng/cookbooks/apache/attributes/www.rb",
-		"/data/HOME/Repos/EW/customer/snbng/cookbooks/apache/recipes/default.rb",
-		"/data/HOME/Repos/EW/customer/snbng/cookbooks/tomcat/recipes/mgmt-ipa.rb",
-		"/data/HOME/Repos/EW/customer/snbng/cookbooks/tomcat/attributes/www.rb",
-		"/data/HOME/Repos/EW/customer/snbng/cookbooks/tomcat/attributes/mgmt.rb"
+		"/home/ask/Repos/EW/customer/snbng/lxc-template-snbng/deploys/snbng-mgmt01-test.sh"
 	],
 	"find":
 	{
@@ -834,7 +832,59 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"/tmp/chef-solo",
+			"syslog",
+			":uid",
+			"nginx_log_sync",
+			"log",
+			"server_name",
+			"remote_dire",
+			"vhost",
+			"sink",
+			"(>|\\})",
+			"\\n",
+			"(>|\\})",
+			"(>|})",
+			">",
+			"group 'wheel'",
+			"owner 'root'",
+			"'root'",
+			"\"wheel\"",
+			"\"root\"",
+			"wheel",
+			"@ngnx",
+			"000-def",
+			"log_path",
+			"log_pat",
+			"log_path",
+			":paths",
+			"[:paths][:ssl_crt]",
+			"[:paths][:ssh_key]",
+			" => ",
+			" =>  =  = ",
+			" => ",
+			"var",
+			"[:log][:dir] => node[:nginx][:instances]",
+			"log_name",
+			"sink",
+			"notifie",
+			"purge",
+			"msg",
+			".crt",
+			"_p2",
+			"_p1",
+			":ip => %w{127.0.0.1},",
+			"www.test.snb",
+			"<%=",
+			"nginx_instance",
+			"service",
+			"first",
+			":main",
+			"node[\"nginx\"][\"name\"]",
+			"[0]",
+			"\"/usr/local/etc/nginx/ssl.key/\" +",
+			"\"/usr/local/etc/nginx/ssl.crt/\" +",
+			"node[\"nginx\"][\"instances\"][\"www\"]",
+			"upstream",
 			"unzip",
 			"log(",
 			"log ",
@@ -909,67 +959,33 @@
 			"get_public_key_name_user",
 			"sshAppKeys",
 			"tomcat_stop",
-			"tc-www",
-			"-K",
-			"\n        ",
-			"instance_name",
-			"write",
-			"ALL_SSH_KEYS",
-			"context",
-			"ARCHIVEDIR",
-			"TARGET_DIR",
-			"SSH_IGNORED_OUTPUT",
-			"BRANCH",
-			"EW_ENVIRONMENT",
-			"mgmt",
-			"'mgmt'",
-			"\"mgmt\"",
-			"'mgmt'",
-			"'www'",
-			"apache",
-			"logr",
-			"customer",
-			" ",
-			"alert",
-			" ",
-			"']",
-			"node['apache']['instances']['alert']['",
-			"']",
-			"node['apache']['instances']['mgmt']['",
-			"'mobile'",
-			"'www'",
-			"\\s+IN.*",
-			"waf_bac",
-			"JAVA_O",
-			"(unzip.* -d )(/srv/.*?webapps/.*?)( .*)(\")",
-			"(unzip.*?webapps/)(.*?)(/.*)(\")",
-			"unzip",
-			":maxTotal => \"10,\"",
-			"maxTotal",
-			"grep",
-			"192.168.229.45",
-			"(=)\\$(\\d+)",
-			"=$",
-			"(snb.*)",
-			",.*",
-			":hostname => \"192.168.67.91\",",
-			"HOSTBRIDGEDEV",
-			"ka",
-			"done",
-			"\\s+...\\s+\\d+\\s+(yes|no)\\s+\\[Edit\\]\\s+\\[Add Log\\]",
-			"queued as",
-			" $",
-			"°",
-			"§",
-			"é"
+			"tc-www"
 		],
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
-			"/opt/kitchen",
+			"$1\\n",
+			"",
+			"$1\\n",
+			"\\1\\n",
+			"$1\\n",
+			">\\n",
+			"group 0",
+			"owner 0",
+			"'wheel'",
+			"'root'",
+			"@nginx",
+			"[:paths][:ssl][:crt]",
+			"[:paths][:ssl][:key]",
+			"[:log][:dir] => node[:nginx][:paths][:log_path] + '/' + node[:nginx][:instances]",
+			":ip => [],",
+			"node[:nginx][:name]",
+			"node[:nginx][:paths][:ssh_key] +",
+			"node[:nginx][:paths][:ssl_crt] +",
+			"node[:nginx][:instances][:www]",
 			"tRKiY4L3N1Ts",
 			"cassons",
 			".#{node['hostname']}.",
@@ -1064,97 +1080,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "chef/roles/ew-ubuntu.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 498,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								99,
-								99
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "chef/nodes/ewunix-vpn01-prod.json",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 124,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								82,
-								82
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "chef/roles/vpn-server.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 343,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								273,
-								273
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1191,7 +1118,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 112.0
+		"height": 100.0
 	},
 	"output.find_results":
 	{
@@ -1199,13 +1126,13 @@
 	},
 	"output.git":
 	{
-		"height": 175.0
+		"height": 268.0
 	},
 	"pinned_build_system": "",
 	"project": "ewunix-vpn01-prod.sublime-project",
 	"replace":
 	{
-		"height": 64.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1214,6 +1141,26 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"templates/default/nginx-conf/vhost/snbwebsite.conf.erb",
+				"cookbooks/nginx-snb/templates/default/nginx-conf/vhost/snbwebsite.conf.erb"
+			],
+			[
+				"ks/nginx-snb/recipes/default.rb",
+				"cookbooks/nginx-snb/recipes/default.rb"
+			],
+			[
+				"inx-snb/recipes/default.rb",
+				"cookbooks/nginx-snb/recipes/default.rb"
+			],
+			[
+				"ooks/nginx-snb/attributes/default.rb",
+				"cookbooks/nginx-snb/attributes/default.rb"
+			],
+			[
+				"okbooks/nginx-snb/attributes/defau",
+				"cookbooks/nginx-snb/attributes/default.rb"
+			],
 			[
 				"p2.r",
 				"environments/p2.rb"
@@ -1511,7 +1458,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 266.0,
+	"side_bar_width": 329.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

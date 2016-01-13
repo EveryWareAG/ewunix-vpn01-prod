@@ -1,4 +1,4 @@
-vpn-server Cookbook
+ew-openvpn Cookbook
 ===================
 TODO: Enter the cookbook description here.
 

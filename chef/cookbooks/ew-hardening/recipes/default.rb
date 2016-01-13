@@ -51,19 +51,19 @@ end # of bash "umask restrikiv auf " + umaskdefs + "setzen in /etc/login.defs" d
 #############################################
 # getty reduzieren
 for tty_number in 3..6
-    tty="tty" + tty_number.to_s
+    tty_name="tty" + tty_number.to_s
 
-    service "Stoppy getty für " + tty do
-        service_name tty
+    service "Stoppe getty für " + tty_name do
+        service_name tty_name
         action :stop
-        only_if {::File.exist?("/etc/init/" + tty + ".conf")}
-    end # of service "Stoppy getty für " + tty do
+        only_if {::File.exist?("/etc/init/" + tty_name + ".conf")}
+    end # of service "Stoppe getty für " + tty_name do
 
-    file "Getty upstart Job entfernen: " + tty do
-        path "/etc/init/" + tty + ".conf"
+    file "Getty upstart Job entfernen: " + tty_name do
+        path "/etc/init/" + tty_name + ".conf"
         action :delete
-        only_if {::File.exist?("/etc/init/" + tty + ".conf")}
-    end # of file "Getty upstart Job entfernen: " + tty do
+        only_if {::File.exist?("/etc/init/" + tty_name + ".conf")}
+    end # of file "Getty upstart Job entfernen: " + tty_name do
 end # of for tty_number in 3..6
 
 #############################################

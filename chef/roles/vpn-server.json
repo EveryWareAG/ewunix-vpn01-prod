@@ -20,6 +20,6 @@
     "description": "OpenVPN Server",
     "chef_type": "role",
     "run_list": [ 
-        "recipe[vpn-server]"
+        "recipe[ew-openvpn]"
     ]
 }
