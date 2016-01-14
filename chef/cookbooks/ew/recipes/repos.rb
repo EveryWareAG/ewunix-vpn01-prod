@@ -19,7 +19,7 @@ end # file "sources.list Datei entfernen" do
 dist = node['lsb']['codename']
 apt_repository "Ubuntu Repos: " + dist do
     name "Ubuntu-Repositories-" + dist
-    uri "http://ubuntu.everyware/" + node['ew'][:aptweek] + "/ubuntu"
+    uri "http://ubuntu.everyware/" + node[:ew][:aptweek] + "/ubuntu"
     distribution dist
     components ["main", "restricted", "multiverse", "universe"]
     deb_src true
@@ -28,7 +28,7 @@ end # of apt_repository "Ubuntu Repos: " + distribution do
     dist = node['lsb']['codename'] + dist_subtype
     apt_repository "Ubuntu Repos: " + dist do
         name "Ubuntu-Repositories-" + dist
-        uri "http://ubuntu.everyware/" + node['ew'][:aptweek] + "/ubuntu"
+        uri "http://ubuntu.everyware/" + node[:ew][:aptweek] + "/ubuntu"
         distribution dist
         components ["main", "restricted", "multiverse", "universe"]
         deb_src true
