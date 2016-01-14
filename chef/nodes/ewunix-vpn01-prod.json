@@ -8,5 +8,8 @@
             "timeout": 2,
             "rotate": true
         }
+    },
+    "openvpn": {
+        "listen": [[1194, "udp"], [1194, "tcp"], [80, "tcp"]]
     }
 }

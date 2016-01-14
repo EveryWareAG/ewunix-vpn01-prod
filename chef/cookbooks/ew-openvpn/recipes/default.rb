@@ -69,27 +69,31 @@ end # of bash 'tls-auth-key' do
 
 # server.conf erzeugen. Hier, da "dhcp_dns" zu übergeben ist. Wird
 # beim Default nicht gemacht.
-openvpn_conf 'server' do
-  port node['openvpn']['port']
-  proto node['openvpn']['proto']
-  type node['openvpn']['type']
-  local node['openvpn']['local']
-  routes node['openvpn']['routes']
-  script_security node['openvpn']['script_security']
-  key_dir node['openvpn']['key_dir']
-  key_size node['openvpn']['key']['size']
-  subnet node['openvpn']['subnet']
-  netmask node['openvpn']['netmask']
-  user node['openvpn']['user']
-  group node['openvpn']['group']
-  log node['openvpn']['log']
-  dhcp_dns node['openvpn']['dhcp_dns']
-  tls_key node['openvpn']['tls_key']
-  verb node['openvpn']['verb']
+node['openvpn']['listen'].each do |port, proto|
+    node.default['openvpn']['port'] = port.to_s
+    node.default['openvpn']['proto'] = proto
+    openvpn_conf 'server-' + port.to_s + '_' + proto do
+        port node['openvpn']['port']
+        proto node['openvpn']['proto']
+        type node['openvpn']['type']
+        local node['openvpn']['local']
+        routes node['openvpn']['routes']
+        script_security node['openvpn']['script_security']
+        key_dir node['openvpn']['key_dir']
+        key_size node['openvpn']['key']['size']
+        subnet node['openvpn']['subnet']
+        netmask node['openvpn']['netmask']
+        user node['openvpn']['user']
+        group node['openvpn']['group']
+        log node['openvpn']['log']
+        dhcp_dns node['openvpn']['dhcp_dns']
+        tls_key node['openvpn']['tls_key']
+        verb node['openvpn']['verb']
 
-  not_if { node['openvpn']['configure_default_server'] }
-  notifies :restart, 'service[openvpn]'
-end
+        not_if { node['openvpn']['configure_default_server'] }
+        notifies :restart, 'service[openvpn]'
+    end
+end # of node['openvpn']['listen'].each do |port, proto|
 
 # Hilfsscript, um User anlegen zu können
 cookbook_file '/etc/openvpn/easy-rsa/generate.sh' do
