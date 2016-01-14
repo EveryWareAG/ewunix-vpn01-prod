@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"eas",
+				"easy-rsa"
+			],
+			[
+				"open",
+				"openvpn"
+			],
+			[
 				"di",
 				"directory"
 			],
@@ -195,6 +203,167 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "chef/roles/openvpn-server.rb",
+			"settings":
+			{
+				"buffer_size": 438,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "chef/roles/vpn-server.json",
+			"settings":
+			{
+				"buffer_size": 538,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "chef/cookbooks/ew-openvpn/metadata.rb",
+			"settings":
+			{
+				"buffer_size": 401,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "chef/cookbooks/ew-openvpn/recipes/default.rb",
+			"settings":
+			{
+				"buffer_size": 4535,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "chef/cookbooks/ew-openvpn/files/default/openvpn/easy-rsa/generate.sh",
+			"settings":
+			{
+				"buffer_size": 260,
+				"line_ending": "Unix",
+				"name": "#!/bin/sh"
+			}
+		},
+		{
+			"file": "/data/HOME/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/cookbooks/openvpn/recipes/default.rb",
+			"settings":
+			{
+				"buffer_size": 3829,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "chef/cookbooks/ew-openvpn/files/default/openvpn/easy-rsa/revoke-full",
+			"settings":
+			{
+				"buffer_size": 1072,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "chef/cookbooks/ew-openvpn/templates/default/openvpn/Rakefile-ovpn.erb",
+			"settings":
+			{
+				"buffer_size": 2520,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/data/HOME/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/cookbooks/ew/attributes/default.rb",
+			"settings":
+			{
+				"buffer_size": 80,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/data/HOME/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/cookbooks/ew/recipes/default.rb",
+			"settings":
+			{
+				"buffer_size": 3236,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/data/HOME/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/cookbooks/ew/recipes/repos.rb",
+			"settings":
+			{
+				"buffer_size": 1601,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/data/HOME/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/cookbooks/ew/recipes/skel.rb",
+			"settings":
+			{
+				"buffer_size": 1371,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/data/HOME/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/cookbooks/ew/recipes/lxc.rb",
+			"settings":
+			{
+				"buffer_size": 857,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "chef/cookbooks/ew-openvpn/attributes/default.rb",
+			"settings":
+			{
+				"buffer_size": 2146,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "chef/nodes/ewunix-vpn01-prod.json",
+			"settings":
+			{
+				"buffer_size": 386,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "chef/nodes/proxy.1st.ch.json",
+			"settings":
+			{
+				"buffer_size": 177,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "chef/cookbooks/ew-openvpn/templates/default/server.conf.erb",
+			"settings":
+			{
+				"buffer_size": 2377,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "chef/cookbooks/openvpn/templates/default/pkitool.erb",
+			"settings":
+			{
+				"buffer_size": 12208,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "chef/cookbooks/ew-openvpn/files/default/openvpn/easy-rsa/revoke.sh",
+			"settings":
+			{
+				"buffer_size": 572,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "chef/cookbooks/ew-openvpn/README.md",
+			"settings":
+			{
+				"buffer_size": 1456,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -210,6 +379,50 @@
 			[
 				"git push",
 				"Git: Push"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"git ad",
+				"Git: Add Current File"
+			],
+			[
+				"syntax sh",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"syntax ru",
+				"Set Syntax: Ruby"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"git psh",
+				"Git: Push"
+			],
+			[
+				"git co",
+				"Git: Commit"
+			],
+			[
+				"gitacf",
+				"Git: Add Current File"
+			],
+			[
+				"git st",
+				"Git: Status"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"comme",
+				"Toggle Comment"
 			],
 			[
 				"git comm",
@@ -228,36 +441,12 @@
 				"File: Close All"
 			],
 			[
-				"git com",
-				"Git: Commit"
-			],
-			[
-				"git ad",
-				"Git: Add Current File"
-			],
-			[
-				"git st",
-				"Git: Status"
-			],
-			[
-				"git stat",
-				"Git: Status"
-			],
-			[
 				"git add",
 				"Git: Add..."
 			],
 			[
 				"git diff",
 				"Git: Diff All Files"
-			],
-			[
-				"git status",
-				"Git: Status"
-			],
-			[
-				"comme",
-				"Toggle Comment"
 			],
 			[
 				"com",
@@ -326,10 +515,6 @@
 			[
 				"close ",
 				"File: Close All"
-			],
-			[
-				"git co",
-				"Git: Commit"
 			],
 			[
 				"close all",
@@ -438,10 +623,6 @@
 			[
 				"o",
 				"Toggle Comment"
-			],
-			[
-				"git psh",
-				"Git: Push"
 			],
 			[
 				"oggl",
@@ -660,7 +841,7 @@
 				"View: Toggle Menu"
 			]
 		],
-		"width": 530.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -680,10 +861,25 @@
 	},
 	"expanded_folders":
 	[
-		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod"
+		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod",
+		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef",
+		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/cookbooks",
+		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/cookbooks/openvpn",
+		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/cookbooks/openvpn/attributes",
+		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/cookbooks/openvpn/providers",
+		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/cookbooks/openvpn/recipes",
+		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/cookbooks/openvpn/resources",
+		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/cookbooks/openvpn/templates",
+		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/cookbooks/openvpn/templates/default",
+		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/nodes",
+		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/roles"
 	],
 	"file_history":
 	[
+		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/README.md",
+		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/servers-ewunix-vpn01-prod-doku.dokuwiki.txt",
+		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/cookbooks/openvpn/templates/default/server.conf.erb",
+		"/home/ask/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/cookbooks/ew-openvpn/files/default/openvpn/update-resolv-conf",
 		"/home/ask/Repos/EW/customer/snbng/cookbooks/nginx-snb/templates/default/nginx-conf/vhost/snbwebsite.conf.erb",
 		"/home/ask/Repos/EW/customer/snbng/cookbooks/nginx-snb/recipes/nginx-conf.rb",
 		"/home/ask/Repos/EW/customer/snbng/cookbooks/nginx-snb/recipes/default.rb",
@@ -807,15 +1003,11 @@
 		"/home/ask/Repos/EW/customer/snbng/roles/app.json",
 		"/home/ask/Repos/EW/customer/snbng/roles/mgmt.json",
 		"/data/HOME/Repos/EW/customer/deploy-to-mgmt-system/cookbooks/tomcat/attributes/default.rb",
-		"/home/ask/Repos/EW/customer/snbng/nodes/snbng-mgmt02-ka.json",
-		"/home/ask/Repos/EW/customer/snbng/nodes/snbng-mgmt01-test.json",
-		"/home/ask/Repos/EW/customer/snbng/lxc-template-snbng/deploys/snbng-mgmt01-ka.sh",
-		"/home/ask/Repos/EW/customer/snbng/lxc-template-snbng/deploys/snbng-mgmt01-prod.sh",
-		"/home/ask/Repos/EW/customer/snbng/lxc-template-snbng/deploys/snbng-mgmt01-test.sh"
+		"/home/ask/Repos/EW/customer/snbng/nodes/snbng-mgmt02-ka.json"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -832,6 +1024,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"KEY_CN",
+			"template",
 			"syslog",
 			":uid",
 			"nginx_log_sync",
@@ -957,14 +1151,12 @@
 			"mgmt",
 			"authorized_keys.au",
 			"get_public_key_name_user",
-			"sshAppKeys",
-			"tomcat_stop",
-			"tc-www"
+			"sshAppKeys"
 		],
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": true,
+		"regex": false,
 		"replace_history":
 		[
 			"$1\\n",
@@ -1080,8 +1272,596 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "chef/roles/openvpn-server.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 438,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								217,
+								217
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "chef/roles/vpn-server.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 538,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								419,
+								419
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "chef/cookbooks/ew-openvpn/metadata.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 401,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								401,
+								401
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "chef/cookbooks/ew-openvpn/recipes/default.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4535,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2944,
+								2944
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 810.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "chef/cookbooks/ew-openvpn/files/default/openvpn/easy-rsa/generate.sh",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 260,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								175,
+								175
+							]
+						],
+						"settings":
+						{
+							"auto_name": "#!/bin/sh",
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/data/HOME/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/cookbooks/openvpn/recipes/default.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3829,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								832,
+								832
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 23.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "chef/cookbooks/ew-openvpn/files/default/openvpn/easy-rsa/revoke-full",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1072,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1072,
+								1072
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "chef/cookbooks/ew-openvpn/templates/default/openvpn/Rakefile-ovpn.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2520,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1404,
+								1404
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 526.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/data/HOME/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/cookbooks/ew/attributes/default.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 80,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/data/HOME/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/cookbooks/ew/recipes/default.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3236,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1729,
+								1729
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 619.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/data/HOME/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/cookbooks/ew/recipes/repos.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1601,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								940,
+								940
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/data/HOME/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/cookbooks/ew/recipes/skel.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1371,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								624,
+								624
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/data/HOME/Repos/EW/Extern/Github.com/EveryWareAG/ewunix-vpn01-prod/chef/cookbooks/ew/recipes/lxc.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 857,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								417,
+								417
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "chef/cookbooks/ew-openvpn/attributes/default.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2146,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								115,
+								115
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "chef/nodes/ewunix-vpn01-prod.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 386,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								386,
+								386
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "chef/nodes/proxy.1st.ch.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 177,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								85,
+								85
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "chef/cookbooks/ew-openvpn/templates/default/server.conf.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2377,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1153,
+								1153
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "chef/cookbooks/openvpn/templates/default/pkitool.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12208,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8469,
+								8469
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3083.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "chef/cookbooks/ew-openvpn/files/default/openvpn/easy-rsa/revoke.sh",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 572,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								173,
+								173
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "chef/cookbooks/ew-openvpn/README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1456,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10,
+								10
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -1141,6 +1921,18 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"gener",
+				"chef/cookbooks/ew-openvpn/files/default/openvpn/easy-rsa/generate.sh"
+			],
+			[
+				"pkit",
+				"chef/cookbooks/openvpn/templates/default/pkitool.erb"
+			],
+			[
+				"pki",
+				"chef/cookbooks/openvpn/templates/default/pkitool.erb"
+			],
 			[
 				"templates/default/nginx-conf/vhost/snbwebsite.conf.erb",
 				"cookbooks/nginx-snb/templates/default/nginx-conf/vhost/snbwebsite.conf.erb"
